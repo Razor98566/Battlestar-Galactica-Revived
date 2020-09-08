@@ -14,7 +14,7 @@
     # A link to the raw .version JSON data
     "masterVersionFile":"https://raw.githubusercontent.com/Razor98566/Battlestar-Galactica-Revived/master/versionchecker.version",
     # The name that is displayed in-game for your mod
-    "modName":"Version Checker",
+    "modName":"Battlestar Galactica Revived",
     # The ID of the thread where updates to this mod can be found (optional).
     # This is used to launch directly to the forum thread from in the game.
     # The ID is the set of digits at the end of the forum thread URL before the dot.
