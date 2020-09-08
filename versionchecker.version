@@ -12,7 +12,7 @@
     # that the JRE that ships with Starsector does not include).
     #
     # A link to the raw .version JSON data
-    "masterVersionFile":"https://raw.githubusercontent.com/LazyWizard/version-checker/master/mod/versionchecker.version",
+    "masterVersionFile":"https://raw.githubusercontent.com/Razor98566/Battlestar-Galactica-Revived/master/versionchecker.version",
     # The name that is displayed in-game for your mod
     "modName":"Version Checker",
     # The ID of the thread where updates to this mod can be found (optional).
