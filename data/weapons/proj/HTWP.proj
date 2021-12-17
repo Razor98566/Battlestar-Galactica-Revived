@@ -1,0 +1,38 @@
+{
+	"id":"HTWP",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/missiles/PCSCML.png",
+	"size":[6,16],	
+	"center":[0,0],
+	"collisionRadius":16,
+	"collisionClass":"MISSILE_NO_FF",
+	"collisionClassByFighter":"NONE";
+	"explosionColor":[255,100,100,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":3000, # purely visual
+	"engineSpec":{"turnAcc":5,
+				  "turnRate":15,
+				  "acc":750,
+				  "dec":400},
+	"engineSlots":[{"id":"ES1",
+					"loc":[2,-2],
+				    "style":"CUSTOM",
+				    "styleSpec":{
+					"mode":"QUAD_STRIP",
+					"engineColor":[255,80,80,255],
+					"contrailParticleDuration":10,
+					"contrailWidthMult":1,
+					"contrailWidthAddedFractionAtEnd":2,
+					"contrailMinSeg":1,
+					"contrailAngularVelocityMult":2.0,
+					"contrailMaxSpeedMult":1,
+					"contrailColor":[150,80,80,180],
+					"contrailParticleSizeMult":2,
+					"contrailDuration":4,
+					"type":"SMOKE",
+				    },
+				    "width":15.0,
+				    "length":120.0,
+				    "angle":180.0},
+				    ]
+}

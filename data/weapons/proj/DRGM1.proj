@@ -1,0 +1,18 @@
+{
+	"id":"DRGM1_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":75.0,
+	"hitGlowRadius":45,
+	"width":10.0,
+	"fadeTime":0.2,
+	"fringeColor":[255,100,50,255],
+	"coreColor":[235,120,0,255],
+	"glowColor":[255,100,50,70],
+	"glowRadius":35,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/shell_medium.png"
+}
