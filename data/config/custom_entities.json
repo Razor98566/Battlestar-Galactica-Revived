@@ -1,0 +1,40 @@
+{
+	"hub":{
+		"defaultName":"Resurrection Hub", # used if name=null in addCustomEntity()
+		"defaultRadius":100, # used if radius<0 in addCustomEntity()
+		"icon":"graphics/icons/hub.png",
+		"iconWidth":40,
+		"iconHeight":40,
+		"sprite":"graphics/Cylon/hub2.png",
+		"spriteWidth":80,
+		"spriteHeight":80,
+		"renderShadow":false,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":true,
+		"scaleIconWithZoom":true,
+		"customDescriptionId":"bsg_hub",
+		"tags":["station", "neutrino"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+	},
+	"ragnar":{
+		"defaultName":"Ragnar Anchorage", # used if name=null in addCustomEntity()
+		"defaultRadius":100, # used if radius<0 in addCustomEntity()
+		"icon":"graphics/icons/ragna.png",
+		"iconWidth":40,
+		"iconHeight":40,
+		"sprite":"graphics/Colonial Fleet/ragnar2.png",
+		"spriteWidth":80,
+		"spriteHeight":80,
+		"renderShadow":false,
+		"useLightColor":true,
+		"showInCampaign":true,
+		"showIconOnMap":true,
+		"showNameOnMap":true,
+		"scaleIconWithZoom":true,
+		"customDescriptionId":"bsg_ragnar",
+		"tags":["station", "neutrino"],
+		"layers":[STATIONS], # what layer(s) to render in. See CampaignEngineLayers.java for possible values
+	},	
+}

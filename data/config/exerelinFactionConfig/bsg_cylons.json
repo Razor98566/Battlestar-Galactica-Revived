@@ -1,0 +1,56 @@
+{
+  "playableFaction": true,
+  "corvusCompatible": true,
+  "hostileToAll": 1,
+
+  "rebelFleetSuffix": "Cylon Rebels",
+
+  "marketSpawnWeight": 0.5,
+
+  "difficultyString": "hard",
+  "ngcTooltip": "Living ships, many missiles, some religious fanatics and a whole lot of chromium.",
+
+  "asteroidMiningFleetName": "Miner",
+  "gasMiningFleetName": "Gas miner",
+  "invasionFleetName": "Cylon Invasion Force",
+  "responseFleetName": "Cylon Response Fleet",
+  "invasionSupportFleetName": "Fire support",
+  "defenceFleetName": "Cylon Protector",
+  "stationName": "Station Star",
+
+  "factionsLiked": [],
+  "factionsDisliked": [],
+  "morality": "evil",
+
+  "allowAgentActions": true,
+  "allowPrisonerActions": true,
+
+  "alignments": {
+    "militarist": 1,
+    "diplomatic": -1,
+    "ideological": 1
+  },
+
+  "invasionStrengthBonusAttack": 0.1,
+  "invasionStrengthBonusDefend": 0.2,
+  "invasionFleetSizeMod": -0.15,
+  "responseFleetSizeMod": -0.15,
+  "invasionPointMult": 0.3,
+
+  "patrolSizeMult": 0.7,
+
+  "dropPrisoners": true,
+
+  "vengeanceLevelNames": [ "Small", "Medium", "Full force" ],
+  "vengeanceFleetNames": [ "Small", "Medium", "Full force" ],
+  "vengeanceFleetNamesSingle": [ "Small", "Medium", "Full force" ],
+
+  "startShipsSolo": [[ "bsg_nemesis_variant" ]],
+  "startShipsTradeSmall": [[ "bsg_intruder_variant", "bsg_gorgon_variant", "bsg_talon_variant"]],
+  "startShipsTradeLarge": [[ "bsg_tosbasestar_variant", "bsg_tosbasestar_variant", "bsg_cerberus_variant", "bsg_talon_variant", "bsg_talon_variant", "bsg_hydra_variant"]],
+  "startShipsExplorerSmall": [[ "bsg_phobos_variant", "bsg_nemesis_variant", "bsg_hydra_variant", "bsg_cera_variant", "bsg_talon_variant"]],
+  "startShipsExplorerLarge": [[ "bsg_revenant_variant", "bsg_phobos_variant", "bsg_nemesis_variant", "bsg_resurrection_ship_variant", "bsg_hydra_variant", "bsg_cera_variant", "bsg_talon_variant"]],
+  "startShipsCombatSmall": [[ "bsg_revenant_variant", "bsg_phobos_variant", "bsg_phobos_variant", "bsg_nemesis_variant"]],
+  "startShipsCombatLarge": [[  "bsg_cratus_variant", "bsg_argos_variant", "bsg_basestar2_variant", "bsg_basestar2_variant","bsg_basestar2_variant", "bsg_resurrection_ship_variant", "bsg_hydra_variant", "bsg_talon_variant"]]
+
+}

@@ -1,0 +1,133 @@
+{	
+	"starSystem":"Helios Alpha",
+		
+	"markets":[
+		{
+			"entities": ["new_caprica"],
+			"faction": "bsg_colonies",
+			"size": 6,
+			"submarkets": ["open_market", "black_market"],
+			#"tariff": 0.5,
+			"startingConditions": [
+				"habitable",
+				"urbanized_polity",
+				"regional_capital",
+				"stealth_minefields",
+				"population_6",
+				"cold",
+				"thin_atmosphere",
+				"mild_climate",
+				"farmland_poor"
+			],
+			"industries": [
+				"population",
+				"farming",
+				"fuelprod",
+				"lightindustry",
+				"heavyindustry",
+				"spaceport",
+				"heavybatteries",
+				"militarybase",
+				"bsg_ragnar",
+				"grounddefenses"
+			]
+		},
+		{
+			"entities": ["new_picon"],
+			"faction": "bsg_colonies",
+			"size": 5,
+			"submarkets": [
+				"generic_military",
+				"open_market",
+				"black_market"
+			],
+			"startingConditions": [
+				"habitable",
+				"population_5",
+				"farmland_rich",
+				"ore_rich",
+				"headquarters",
+				"mild_climate",
+				"terran",
+				"industrial_polity",
+				"outpost",
+				"closed_immigration",
+				"stealth_minefields",
+				"organics_abundant"
+			],
+			"industries": [
+				"population",
+				"farming",
+				"mining",
+				"refining",
+				"megaport",
+				"lightindustry",
+				"heavyindustry",
+				"heavybatteries",
+				"bsg_ragnar",
+				"orbitalworks",
+				"patrolhq",
+				"highcommand",
+				"grounddefenses"
+			]
+		},
+		{
+			"entities": ["new_gemenon"],
+			"faction": "bsg_colonies",
+			"size": 3,
+			"submarkets": [
+				"open_market",
+				"black_market"
+			],
+			"startingConditions": [
+				"habitable",
+				"desert",
+				"arid",
+				"population_3",
+				"rural_polity",
+				"ruins_widespread",
+				"very_hot",
+				"dense_atmosphere",
+				"rare_ore_rich",
+				"ore_abundant"
+				
+			],
+			"industries": [
+				"population",
+				"mining",
+				"refining",
+				"techmining",
+				"spaceport",
+				"bsg_ragnar"
+			]
+		},
+		{
+			"entities": ["new_tauron"],
+			"faction": "bsg_colonies",
+			"size":3,
+			"submarkets": ["open_market", "black_market"],
+			"startingConditions": [
+				"habitable",
+				"population_3",
+				"ice",
+				"trade_center",
+				"organized_crime",
+				"vice_demand",
+				"rural_polity",
+				"very_cold",
+				"extreme_weather",
+				"volatiles_plentiful"
+			],
+			"industries":[
+				"population",
+				"mining",
+				"refining",
+				"commerce",
+				"waystation",
+				"fuelprod",
+				"spaceport",
+				"bsg_ragnar"
+			]
+		}
+	]
+}

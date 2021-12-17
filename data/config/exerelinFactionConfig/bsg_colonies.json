@@ -1,0 +1,55 @@
+{
+  "playableFaction": true,
+  "corvusCompatible": true,
+  "hostileToAll": 0,
+
+  "rebelFleetSuffix": "Saggitarion Defense Force",
+
+  "marketSpawnWeight": 0.5,
+
+  "difficultyString": "medium",
+  "ngcTooltip": "Colonial ships, good artillery, great armor.",
+
+  "asteroidMiningFleetName": "Miner",
+  "gasMiningFleetName": "Gas miner",
+  "invasionFleetName": "Colonial invasion force",
+  "responseFleetName": "Colonial response fleet",
+  "invasionSupportFleetName": "Fire support",
+  "defenceFleetName": "Colonial Defense Force",
+  "stationName": "Anchorage",
+
+  "factionsLiked": [],
+  "factionsDisliked": [],
+  "morality": "good",
+
+  "allowAgentActions": true,
+  "allowPrisonerActions": true,
+
+  "alignments": {
+    "militarist": 1,
+    "diplomatic": 1,
+    "ideological": 1
+  },
+
+  "invasionStrengthBonusAttack": 0.1,
+  "invasionStrengthBonusDefend": 0.2,
+  "invasionFleetSizeMod": -0.15,
+  "responseFleetSizeMod": -0.15,
+  "invasionPointMult": 0.3,
+
+  "patrolSizeMult": 0.7,
+
+  "dropPrisoners": false,
+
+  "vengeanceLevelNames": [ "Condition Three", "Condition Two", "Condition One" ],
+  "vengeanceFleetNames": [ "Condition Three", "Condition Two", "Condition One" ],
+  "vengeanceFleetNamesSingle": [ "Condition Three", "Condition Two", "Condition One" ],
+
+  "startShipsSolo": [[ "bsg_manticore_variant" ]],
+  "startShipsTradeSmall": [[ "bsg_defender_variant", "bsg_erebus_variant", "bsg_erebus_variant", "bsg_adamant_variant" ]],
+  "startShipsTradeLarge": [[ "bsg_artemis_variant", "bsg_artemis_variant", "bsg_heracles_variant", "bsg_heracles_variant", "bsg_freighter_variant", "bsg_freighter_variant", "bsg_tanker_variant"]],
+  "startShipsExplorerSmall": [[ "bsg_adamant_variant", "bsg_orion_variant", "bsg_defender_variant", "bsg_colonial_one_variant", "bsg_cpl_variant", "bsg_freighter_variant", "bsg_tanker_variant" ]],
+  "startShipsExplorerLarge": [[ "bsg_valkyrie_variant", "bsg_ranger_variant", "bsg_atlas_variant", "bsg_cygnus_variant", "bsg_defender_variant", "bsg_defender_variant", "bsg_cpl_variant", "bsg_colonial_one_variant", "bsg_freighter_variant", "bsg_tanker_variant" ]],
+  "startShipsCombatSmall": [[ "bsg_cygnus_variant", "bsg_defender_variant", "bsg_defender_variant", "bsg_berserk_variant" ]],
+  "startShipsCombatLarge": [[ "bsg_mercury_variant", "bsg_galactica_variant", "bsg_valkyrie_variant", "bsg_minotaur_variant", "bsg_orion_variant", "bsg_defender_variant", "bsg_defender_variant", "bsg_cygnus_variant", "bsg_cygnus_variant", "bsg_freighter_variant", "bsg_tanker_variant", "bsg_cpl_variant", "bsg_colonial_one_variant"]]
+}

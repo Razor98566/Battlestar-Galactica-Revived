@@ -1,0 +1,11 @@
+id,name,cost mult,build time,income,upkeep,downgrade,upgrade,tags,data,image,plugin,desc,order
+bsg_hub,Resurrection Hub - Heavy,200,180,,5,,,"station, starfortress, unraidable, structure","{
+radius:70,
+variant:bsg_hub_variant,
+fleetName:Resurrection Hub - Heavy
+}",graphics/icons/industry/hub.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,,550
+bsg_ragnar,Ragnar Anchorage - Heavy,200,180,,5,,,"station, starfortress, unraidable, structure","{
+radius:70,
+variant:bsg_ragnar_variant,
+fleetName:Ragnar Anchorage - Heavy
+}",graphics/icons/industry/ragnar.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,,551
