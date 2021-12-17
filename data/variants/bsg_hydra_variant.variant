@@ -1,0 +1,22 @@
+{
+  "variantId": "bsg_hydra_variant",
+  "hullId": "bsg_hydra",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "PCSDRGS"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

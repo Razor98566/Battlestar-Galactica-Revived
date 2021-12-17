@@ -1,0 +1,47 @@
+{
+  "variantId": "bsg_adamant_variant",
+  "hullId": "bsg_adamant",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "SCSDRGS",
+        "WS0003": "COLA",
+        "WS0005": "SCSDRGS"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "SCSDRGS",
+        "WS0004": "COLA",
+        "WS0006": "SCSDRGS"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "SCSCMS",
+        "WS0008": "SCSCMS",
+        "WS0009": "SCSCMS",
+        "WS0010": "SCSCMS",
+        "WS0011": "SCSCML"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "bsg_vm2_wing",
+    "bsg_vm2_wing"
+  ]
+}

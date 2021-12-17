@@ -1,0 +1,38 @@
+{
+  "id": "CLTS",
+  "specClass": "projectile",
+  "projectileSpecId": "CylLPS",
+  "type": "ENERGY",
+  "size": "SMALL",
+  "turretSprite": "graphics/weapons/cyl_lts.png",
+  "hardpointSprite": "",
+  "renderAboveAllWeapons": 0,
+  "turretOffsets": [
+    12.5,
+    2,
+    12.5,
+    -2,
+    10.5,
+    -5.5,
+    10.5,
+    5.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "DUAL",
+  "animationType": "NONE",
+  "autocharge": true,
+  "textureType": ROUGH,
+  "fireSoundTwo": "bsg_laserCyl"
+}

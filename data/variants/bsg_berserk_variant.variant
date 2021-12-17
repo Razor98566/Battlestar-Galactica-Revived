@@ -1,0 +1,48 @@
+{
+  "variantId": "bsg_berserk_variant",
+  "hullId": "bsg_berserk",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "COLA",
+        "WS0004": "COLA",
+        "WS0006": "COLA",
+        "WS0008": "COLA",
+        "WS0011": "COLA"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "COLA",
+        "WS0003": "COLA",
+        "WS0005": "COLA",
+        "WS0007": "COLA",
+        "WS0012": "COLA"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "SCSCMM",
+        "WS0010": "SCSCMM"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "bsg_vm2_wing",
+    "bsg_vm7_wing"
+  ]
+}

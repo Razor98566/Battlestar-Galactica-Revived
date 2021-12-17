@@ -1,0 +1,24 @@
+{
+  "variantId": "raptor_fighter",
+  "hullId": "bsg_raptor",
+  "displayName": "Raptor",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 1": "FSCW",
+        "WS 2": "FSCW",
+        "WS0001": "FSCW"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

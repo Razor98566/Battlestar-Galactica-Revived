@@ -1,0 +1,24 @@
+{
+  "variantId": "vm7_fighter",
+  "hullId": "bsg_vm7",
+  "displayName": "Viper MKVII",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 1": "FSMG",
+        "WS 2": "FSMG",
+        "WS 3": "FSMG"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

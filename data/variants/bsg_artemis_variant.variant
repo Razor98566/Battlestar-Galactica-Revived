@@ -1,0 +1,66 @@
+{
+  "variantId": "bsg_artemis_variant",
+  "hullId": "bsg_artemis",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "HTW",
+        "WS0005": "ColPC"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "CoLTL",
+        "WS0008": "CoLTL",
+        "WS0009": "CoLTL"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "CoLTL",
+        "WS0012": "CoLTS",
+        "WS0014": "CoLTM",
+        "WS0016": "CoLTS"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "CoLTL",
+        "WS0013": "CoLTS",
+        "WS0015": "CoLTM",
+        "WS0017": "CoLTS"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "CoLTL",
+        "WS0011": "CoLTL",
+        "WS0018": "CoLTS",
+        "WS0019": "CoLTS"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "bsg_vm1_wing",
+    "bsg_vm1_wing",
+    "bsg_vm1_wing"
+  ]
+}

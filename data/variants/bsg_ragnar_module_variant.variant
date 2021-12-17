@@ -1,0 +1,79 @@
+{
+  "variantId": "bsg_ragnar_module_variant",
+  "hullId": "bsg_ragnar_module",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "SCSDPD",
+        "WS0003": "SCSDPD",
+        "WS0005": "SCSDPD",
+        "WS0007": "SCSDPD",
+        "WS0009": "SCSDPD",
+        "WS0011": "SCSDPD",
+        "WS0013": "SCSDPD",
+        "WS0015": "SCSDPD",
+        "WS0017": "SCSDPD",
+        "WS0019": "SCSDPD",
+        "WS0021": "SCSDPD",
+        "WS0023": "SCSDPD",
+        "WS0025": "SCSDPD",
+        "WS0027": "SCSDPD"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "SCSDRGS",
+        "WS0004": "SCSDRGS",
+        "WS0006": "SCSDRGS",
+        "WS0008": "SCSDRGS",
+        "WS0010": "SCSDRGS",
+        "WS0012": "SCSDRGS",
+        "WS0014": "SCSDRGS",
+        "WS0016": "SCSDRGS",
+        "WS0018": "SCSDRGS",
+        "WS0020": "SCSDRGS",
+        "WS0022": "SCSDRGS",
+        "WS0024": "SCSDRGS",
+        "WS0026": "SCSDRGS",
+        "WS0028": "SCSDRGS"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0029": "SCSDRGL",
+        "WS0030": "SCSDRGL",
+        "WS0031": "SCSDRGL",
+        "WS0032": "SCSDRGL",
+        "WS0033": "SCSDRGL",
+        "WS0034": "SCSDRGL"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0035": "SCSDRGL",
+        "WS0036": "SCSDRGL",
+        "WS0037": "SCSDRGL",
+        "WS0038": "SCSDRGL",
+        "WS0039": "SCSDRGL",
+        "WS0040": "SCSDRGL"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

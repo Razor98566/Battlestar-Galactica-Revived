@@ -1,0 +1,64 @@
+{
+  "variantId": "bsg_atlas_variant",
+  "hullId": "bsg_atlas",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "COLA",
+        "WS0005": "COLA",
+        "WS0007": "COLA"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "COLA",
+        "WS0006": "COLA",
+        "WS0008": "COLA"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "SCSCMS",
+        "WS0012": "SCSCMS"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "SCSDPD",
+        "WS0009": "SCSDPD"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "SCSDPD",
+        "WS0010": "SCSDPD"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "bsg_vm2_wing",
+    "bsg_vm2_wing",
+    "bsg_vm2_wing",
+    "bsg_vm2_wing",
+    "bsg_vm7_wing",
+    "bsg_vm7_wing"
+  ]
+}

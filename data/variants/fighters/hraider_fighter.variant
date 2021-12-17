@@ -1,0 +1,32 @@
+{
+  "variantId": "hraider_fighter",
+  "hullId": "bsg_hraider",
+  "displayName": "Raider",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 1": "CFMG",
+        "WS 2": "CFMG",
+        "WS 3": "CFMG",
+        "WS 7": "CFMG"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 8": "CFW"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

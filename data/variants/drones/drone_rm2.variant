@@ -1,0 +1,24 @@
+{
+  "variantId": "drone_rm2_variant",
+  "hullId": "bsg_rm2",
+  "displayName": "Raider MKII",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "CFMG",
+        "WS0002": "CFMG",
+        "WS0003": "CFW"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

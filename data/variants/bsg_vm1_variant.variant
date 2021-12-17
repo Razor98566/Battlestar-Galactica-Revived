@@ -1,0 +1,24 @@
+{
+  "variantId": "bsg_vm1_variant",
+  "hullId": "bsg_vm1",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "FLG",
+        "WS0002": "FLG",
+        "WS0003": "FSCW"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

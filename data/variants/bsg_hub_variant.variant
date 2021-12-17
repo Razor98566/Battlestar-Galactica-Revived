@@ -1,0 +1,41 @@
+{
+  "variantId": "bsg_hub_variant",
+  "hullId": "bsg_hub",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    }
+  ],
+  "modules": [
+    {
+      "WS0034": "bsg_hub_module_variant"
+    }
+  ],
+  "wings": [
+    "bsg_rm2_wing",
+    "bsg_rm2_wing",
+    "bsg_rm2_wing",
+    "bsg_rm2_wing",
+    "bsg_hraider_wing",
+    "bsg_hraider_wing"
+  ]
+}

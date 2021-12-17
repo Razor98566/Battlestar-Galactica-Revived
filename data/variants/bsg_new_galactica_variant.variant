@@ -1,0 +1,69 @@
+{
+  "variantId": "bsg_galactica_variant",
+  "hullId": "bsg_galactica",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "SCSDRGL",
+        "WS0002": "SCSDRGL",
+        "WS0003": "SCSDRGL",
+        "WS0004": "SCSDRGL"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "SCSDRGM",
+        "WS0014": "SCSDRGM",
+        "WS0015": "SCSDRGM",
+        "WS0016": "SCSDRGM"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0017": "SCSCMM",
+        "WS0018": "SCSCMM",
+        "WS0019": "SCSCML",
+        "WS0020": "SCSCML"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "SCSDPD",
+        "WS0007": "SCSDPD",
+        "WS0009": "SCSDPD",
+        "WS0011": "SCSDPD"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0006": "SCSDPD",
+        "WS0008": "SCSDPD",
+        "WS0010": "SCSDPD",
+        "WS0012": "SCSDPD"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "bsg_vm2_wing",
+    "bsg_vm2_wing",
+    "bsg_raptor_wing"
+  ]
+}

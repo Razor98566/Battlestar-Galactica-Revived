@@ -1,0 +1,43 @@
+{
+  "variantId": "bsg_heracles_variant",
+  "hullId": "bsg_heracles",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "SCSDRGM",
+        "WS0002": "SCSDRGM",
+        "WS0003": "SCSDRGM",
+        "WS0004": "SCSDRGM"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "SCSDPD",
+        "WS0007": "SCSDPD",
+        "WS0009": "SCSDPD"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "SCSDPD",
+        "WS0008": "SCSDPD",
+        "WS0010": "SCSDPD"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,67 @@
+{
+  "variantId": "bsg_valkyrie_variant",
+  "hullId": "bsg_valkyrie",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "Front 1": "SCSDRGM",
+        "Front 2": "SCSDRGM",
+        "Front 3": "SCSDRGM",
+        "Front 4": "SCSDRGM"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "Arty 5": "SCSCMM",
+        "Arty 6": "SCSCMM",
+        "Arty 7": "SCSCMM",
+        "Arty 8": "SCSCMM"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "Arty 3": "SCSCMS",
+        "Arty 4": "SCSCMS",
+        "Missile 1": "SCSCMS",
+        "Missile 2": "SCSCMS"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "Flak 1": "SCSDPD",
+        "Flak 2": "SCSDPD",
+        "Flak 4": "SCSDPD",
+        "Flak 5": "SCSDPD"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "Flak 10": "SCSDPD",
+        "Flak 6": "SCSDPD",
+        "Flak 7": "SCSDPD",
+        "Flak 9": "SCSDPD"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "bsg_vm2_wing"
+  ]
+}

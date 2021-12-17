@@ -1,0 +1,52 @@
+{
+  "variantId": "bsg_arachne_variant",
+  "hullId": "bsg_arachne",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "PCSDRGL",
+        "WS0002": "PCSDRGL",
+        "WS0003": "PCSDRGL"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "PCSCMM",
+        "WS0005": "PCSCMM",
+        "WS0006": "PCSCMM",
+        "WS0007": "PCSCMM"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "PCSDRGS",
+        "WS0013": "PCSDRGS"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "PCSDRGS",
+        "WS0012": "PCSDRGS"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "bsg_rm1_wing"
+  ]
+}

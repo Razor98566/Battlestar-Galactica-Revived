@@ -1,0 +1,30 @@
+{
+  "variantId": "drone_rm1_variant",
+  "hullId": "bsg_rm1",
+  "displayName": "Raider MKI",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 3": "CFMG",
+        "WS 4": "CFMG"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "CFW"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

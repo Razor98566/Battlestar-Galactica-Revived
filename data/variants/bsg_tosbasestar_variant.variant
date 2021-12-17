@@ -1,0 +1,66 @@
+{
+  "variantId": "bsg_tosbasestar_variant",
+  "hullId": "bsg_tosbasestar",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "CPC"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "Arty 2": "CLTL",
+        "Arty 4": "CLTL",
+        "Arty 6": "CLTL"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "Small": "CLTS",
+        "Small 2": "CLTS",
+        "Small 3": "CLTS",
+        "Small 4": "CLTS"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "Arty 10": "CLTL",
+        "Arty 7": "CLTL"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "Small 5": "CLTS",
+        "Small 6": "CLTS",
+        "Small 7": "CLTS",
+        "Small 8": "CLTS",
+        "WS0011": "CLTS",
+        "WS0012": "CLTS"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "bsg_rm1_tos_wing",
+    "bsg_rm1_tos_wing",
+    "bsg_rm1_tos_wing",
+    "bsg_rm1_tos_wing"
+  ]
+}

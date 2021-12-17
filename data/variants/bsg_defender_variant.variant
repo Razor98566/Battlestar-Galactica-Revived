@@ -1,0 +1,48 @@
+{
+  "variantId": "bsg_defender_variant",
+  "hullId": "bsg_defender",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "Front 1": "SCSDRGL",
+        "Front 2": "SCSDRGS",
+        "Front 3": "SCSDRGS"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "Missile 1": "SCSCMS",
+        "Missile 2": "SCSCMS"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "PD 1": "SCSDPD"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "PD 2": "SCSDPD"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "bsg_vm2_wing"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "CLTM",
+  "specClass": "projectile",
+  "projectileSpecId": "CylLPM",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/cyl_ltm.png",
+  "hardpointSprite": "",
+  "renderAboveAllWeapons": 0,
+  "turretOffsets": [
+    16.5,
+    3,
+    16.5,
+    -2.5,
+    14,
+    -7.5,
+    13.5,
+    7
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "DUAL",
+  "animationType": "NONE",
+  "autocharge": true,
+  "textureType": ROUGH,
+  "fireSoundTwo": "bsg_laserCyl"
+}

@@ -1,0 +1,37 @@
+{
+  "variantId": "bsg_manticore_variant",
+  "hullId": "bsg_manticore",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "SCSDRGS"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "SCSDRGS"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "SCSCMS",
+        "WS0004": "SCSCMS"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

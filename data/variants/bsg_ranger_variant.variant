@@ -1,0 +1,53 @@
+{
+  "variantId": "bsg_ranger_variant",
+  "hullId": "bsg_ranger",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "SCSDRGS",
+        "WS0006": "SCSDRGS"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "SCSCMM",
+        "WS0008": "SCSCMM",
+        "WS0009": "SCSCMM",
+        "WS0010": "SCSCMM",
+        "WS0011": "SCSCMM",
+        "WS0012": "SCSCMM",
+        "WS0013": "SCSCMM",
+        "WS0014": "SCSCMM"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "COLA",
+        "WS0003": "COLA"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "COLA",
+        "WS0004": "COLA"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

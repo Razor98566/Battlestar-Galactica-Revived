@@ -1,0 +1,58 @@
+{
+  "variantId": "bsg_cygnus_variant2",
+  "hullId": "bsg_cygnus",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "Front 1": "SCSDRGM",
+        "Front 2": "SCSDRGM",
+        "Top Front 2": "SCSDRGM"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "Top Rear 1": "SCSDRGS"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "Missile Left 2": "SCSCMM",
+        "Missile Left 3": "SCSCMS",
+        "Missile Right 2": "SCSCMM",
+        "Missile Right 3": "SCSCMS"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "Top Rear 3": "SCSDRGS"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "Flak Left 2": "SCSDPD",
+        "Flak Right 2": "SCSDPD"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "bsg_vm7_wing"
+  ]
+}

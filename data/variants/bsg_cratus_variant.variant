@@ -1,0 +1,85 @@
+{
+  "variantId": "bsg_cratus_variant",
+  "hullId": "bsg_cratus",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "CPC"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0013": "PCSCML",
+        "WS0014": "PCSCML",
+        "WS0015": "PCSCML",
+        "WS0016": "PCSCML",
+        "WS0017": "PCSCML",
+        "WS0018": "PCSCML",
+        "WS0019": "PCSCML",
+        "WS0020": "PCSCML",
+        "WS0021": "PCSCML"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "PCSDRGM",
+        "WS0002": "PCSDRGL",
+        "WS0003": "PCSDRGL"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "PCSDRGL",
+        "WS0007": "PCSDRGL"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0006": "PCSDRGL",
+        "WS0008": "PCSDRGL"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0009": "PCSDRGL",
+        "WS0011": "PCSDRGL"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0010": "PCSDRGL",
+        "WS0012": "PCSDRGL"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "bsg_rm1_wing",
+    "bsg_rm1_wing",
+    "bsg_rm1_wing",
+    "bsg_rm1_wing",
+    "bsg_rm2_wing",
+    "bsg_rm2_wing"
+  ]
+}

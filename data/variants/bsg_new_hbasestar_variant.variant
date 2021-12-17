@@ -1,0 +1,70 @@
+{
+  "variantId": "bsg_hbasestar_variant",
+  "hullId": "bsg_hbasestar",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "Arty 2": "PCSDRGM",
+        "Arty 4": "PCSDRGM",
+        "Arty 6": "PCSDRGM"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "Small": "PCSDRGS",
+        "Small 2": "PCSDRGS",
+        "Small 3": "PCSDRGS",
+        "Small 4": "PCSDRGS"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "Arty 10": "PCSDRGM",
+        "Arty 7": "PCSDRGM"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "Small 5": "PCSDRGS",
+        "Small 6": "PCSDRGS",
+        "Small 7": "PCSDRGS",
+        "Small 8": "PCSDRGS",
+        "WS0011": "PCSDRGS",
+        "WS0012": "PCSDRGS"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "Missile 1": "PCSCMM",
+        "Missile 2": "PCSCMM",
+        "Missile 3": "PCSCMM",
+        "Missile 4": "PCSCMM",
+        "Missile 5": "PCSCMM"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "bsg_rm1_wing",
+    "bsg_rm1_wing",
+    "bsg_rm1_wing",
+    "bsg_rm1_wing"
+  ]
+}

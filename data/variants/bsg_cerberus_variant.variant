@@ -1,0 +1,80 @@
+{
+  "variantId": "bsg_cerberus_variant",
+  "hullId": "bsg_cerberus",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0015": "PCSDRGL"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "CYLA",
+        "WS0010": "CYLA",
+        "WS0012": "CYLA",
+        "WS0014": "CYLA",
+        "WS0016": "CYLA",
+        "WS0018": "CYLA",
+        "WS0020": "PCSDRGS"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "CYLA",
+        "WS0009": "CYLA",
+        "WS0011": "CYLA",
+        "WS0013": "CYLA",
+        "WS0017": "CYLA",
+        "WS0019": "CYLA",
+        "WS0021": "PCSDRGS"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "PCSDRGS",
+        "WS0002": "PCSDRGS",
+        "WS0003": "CYLA",
+        "WS0004": "CYLA",
+        "WS0005": "CYLA",
+        "WS0006": "CYLA"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "bsg_rm1_wing",
+    "bsg_rm1_wing",
+    "bsg_rm1_wing",
+    "bsg_rm1_wing"
+  ]
+}

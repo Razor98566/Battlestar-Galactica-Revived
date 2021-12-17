@@ -1,0 +1,61 @@
+{
+  "variantId": "bsg_orion_variant",
+  "hullId": "bsg_orion",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "SCSDRGS",
+        "WS0003": "SCSDRGS",
+        "WS0005": "SCSDRGS"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "SCSDRGS",
+        "WS0004": "SCSDRGS",
+        "WS0006": "SCSDRGS"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "SCSCMM",
+        "WS0014": "SCSCMM"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "SCSDPD",
+        "WS0009": "SCSDPD",
+        "WS0011": "SCSDPD"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "SCSDPD",
+        "WS0010": "SCSDPD",
+        "WS0012": "SCSDPD"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "bsg_vm2_wing"
+  ]
+}

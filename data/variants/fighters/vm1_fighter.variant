@@ -1,0 +1,24 @@
+{
+  "variantId": "vm1_fighter",
+  "hullId": "bsg_vm1",
+  "displayName": "Viper MKI TOS",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "FLG",
+        "WS0002": "FLG",
+        "WS0003": "FSCW"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

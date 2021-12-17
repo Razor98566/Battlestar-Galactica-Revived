@@ -1,0 +1,24 @@
+{
+  "displayName": "Raider MKII",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "goalVariant": true,
+  "hullId": "bsg_rm2",
+  "hullMods": [],
+  "modules": [],
+  "permaMods": [],
+  "quality": 0,
+  "variantId": "rm2_fighter",
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "CFMG",
+        "WS0002": "CFMG",
+        "WS0003": "CFW"
+      }
+    }
+  ],
+  "wings": []
+}

@@ -1,0 +1,29 @@
+{
+  "variantId": "rm1_tos_fighter",
+  "hullId": "bsg_rm1_tos",
+  "displayName": "Raider MKI TOS",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "CFLG",
+        "WS0002": "CFLG",
+        "WS0003": "CFW"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

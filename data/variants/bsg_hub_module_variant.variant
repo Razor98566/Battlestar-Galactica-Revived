@@ -1,0 +1,104 @@
+{
+  "variantId": "bsg_hub_module_variant",
+  "hullId": "bsg_hub_module",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 1,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "PCSDRGM",
+        "WS0003": "PCSDRGM",
+        "WS0005": "PCSDRGM",
+        "WS0010": "PCSCML",
+        "WS0012": "PCSCML",
+        "WS0014": "PCSCML",
+        "WS0016": "PCSCML",
+        "WS0019": "PCSCML",
+        "WS0021": "PCSCML",
+        "WS0023": "PCSCML",
+        "WS0025": "PCSCML",
+        "WS0047": "PCSCMM",
+        "WS0049": "PCSCMM",
+        "WS0051": "PCSCMM",
+        "WS0052": "PCSCMM",
+        "WS0053": "PCSCMM",
+        "WS0054": "PCSCMM",
+        "WS0055": "PCSCMS"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "PCSDRGM",
+        "WS0004": "PCSDRGM",
+        "WS0006": "PCSDRGM",
+        "WS0011": "PCSCML",
+        "WS0013": "PCSCML",
+        "WS0015": "PCSCML",
+        "WS0017": "PCSCML",
+        "WS0018": "PCSCML",
+        "WS0020": "PCSCML",
+        "WS0022": "PCSCML",
+        "WS0024": "PCSCML",
+        "WS0046": "PCSCMM",
+        "WS0048": "PCSCMM",
+        "WS0050": "PCSCMM",
+        "WS0056": "PCSCMS",
+        "WS0057": "PCSCMS",
+        "WS0058": "PCSCMM",
+        "WS0059": "PCSCMM",
+        "WS0060": "PCSCMM"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "PCSDRGM",
+        "WS0008": "PCSDRGM",
+        "WS0009": "PCSDRGM",
+        "WS0026": "PCSCML",
+        "WS0027": "PCSCML",
+        "WS0028": "PCSCML",
+        "WS0029": "PCSCML",
+        "WS0030": "PCSCML",
+        "WS0031": "PCSCML",
+        "WS0032": "PCSCML",
+        "WS0033": "PCSCML",
+        "WS0034": "PCSCMM",
+        "WS0035": "PCSCMM",
+        "WS0036": "PCSCMM",
+        "WS0037": "PCSCMM",
+        "WS0038": "PCSCMM",
+        "WS0039": "PCSCMM"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0040": "PCSCMS",
+        "WS0041": "PCSCMS",
+        "WS0042": "PCSCMS",
+        "WS0043": "PCSCMS",
+        "WS0044": "PCSCMS",
+        "WS0045": "PCSCMS"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

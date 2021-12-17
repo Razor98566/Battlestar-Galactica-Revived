@@ -1,0 +1,61 @@
+{
+  "variantId": "bsg_argos_variant",
+  "hullId": "bsg_argos",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "PCSCML",
+        "WS0006": "PCSCML",
+        "WS0007": "PCSCML",
+        "WS0008": "PCSCML",
+        "WS0011": "PCSCML",
+        "WS0012": "PCSCML",
+        "WS0013": "PCSCML",
+        "WS0014": "PCSCML",
+        "WS0015": "PCSCML",
+        "WS0016": "PCSCML"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "PCSCMM",
+        "WS0004": "PCSCMM",
+        "WS0017": "PCSCMM",
+        "WS0018": "PCSCMM",
+        "WS0019": "PCSCMM",
+        "WS0020": "PCSCMM"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "PCSCMS",
+        "WS0002": "PCSCMS",
+        "WS0009": "PCSCMS",
+        "WS0010": "PCSCMS",
+        "WS0021": "PCSCMS",
+        "WS0022": "PCSCMS",
+        "WS0023": "PCSCMS"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "bsg_rm2_wing",
+    "bsg_rm2_wing",
+    "bsg_rm2_wing",
+    "bsg_rm2_wing"
+  ]
+}

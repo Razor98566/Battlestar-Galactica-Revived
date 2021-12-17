@@ -1,0 +1,30 @@
+{
+  "variantId": "vm2_fighter",
+  "hullId": "bsg_vm2",
+  "displayName": "Viper MKII",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "FSMG",
+        "WS0002": "FSMG"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "FSCW"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

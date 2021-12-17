@@ -1,0 +1,22 @@
+{
+  "variantId": "bsg_colonial_one_variant",
+  "hullId": "bsg_colonial_one",
+  "displayName": "Wartime refit",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "SCSCMS"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

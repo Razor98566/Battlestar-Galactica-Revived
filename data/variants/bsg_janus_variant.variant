@@ -1,0 +1,34 @@
+{
+  "variantId": "bsg_janus_variant",
+  "hullId": "bsg_janus",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "COLA",
+        "WS0006": "COLA",
+        "WS0007": "COLA"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "SCSCMM",
+        "WS0003": "SCSCMM",
+        "WS0004": "SCSCMM",
+        "WS0005": "SCSCMM"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

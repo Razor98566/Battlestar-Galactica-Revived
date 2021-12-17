@@ -1,0 +1,65 @@
+{
+  "variantId": "bsg_gbasestar_variant",
+  "hullId": "bsg_gbasestar",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "Left Med 2": "PCSDRGL",
+        "Rear Med 2": "PCSDRGL",
+        "Right Med 2": "PCSDRGL"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "Mid L Med 1": "PCSDRGM",
+        "Mid L Med 3": "PCSDRGM",
+        "Mid R Med 1": "PCSDRGM",
+        "Mid R Med 3": "PCSDRGM"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "Left Mis 3": "PCSCMM",
+        "Right Mis 3": "PCSCMM",
+        "WS0001": "PCSCMM"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "Left Med 1": "PCSDRGS",
+        "Mid L Med 2": "PCSDRGS",
+        "Mid R Med 2": "PCSDRGS",
+        "Rear Med 1": "PCSDRGS",
+        "Right Med 1": "PCSDRGS"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "Left Mis 4": "PCSCMS",
+        "Missile Front 1": "PCSCMS",
+        "Right Mis 4": "PCSCMS"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "bsg_rm1_wing"
+  ]
+}

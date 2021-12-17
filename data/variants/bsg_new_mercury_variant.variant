@@ -1,0 +1,72 @@
+{
+  "variantId": "bsg_mercury_variant",
+  "hullId": "bsg_mercury",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 0,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "Front 10": "SCSDRGM",
+        "Front 3": "SCSDRGL",
+        "Front 4": "SCSDRGL",
+        "Front 5": "SCSDRGL",
+        "Front 6": "SCSDRGL",
+        "Front 8": "SCSDRGM"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "Missile 1": "SCSCML",
+        "Missile 2": "SCSCML",
+        "Missile 4": "SCSCML",
+        "Missile 5": "SCSCML"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "Rear 2": "SCSDRGM",
+        "Rear 3": "SCSDRGM"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "Flak 11": "SCSDPD",
+        "Flak 13": "SCSDPD",
+        "Flak 2": "SCSDPD",
+        "Flak 7": "SCSDPD",
+        "Flak 9": "SCSDPD"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "Flak 14": "SCSDPD",
+        "Flak 16": "SCSDPD",
+        "Flak 18": "SCSDPD",
+        "Flak 20": "SCSDPD",
+        "Flak 5": "SCSDPD"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "bsg_vm7_wing",
+    "bsg_vm7_wing",
+    "bsg_vm2_wing",
+    "bsg_raptor_wing"
+  ]
+}

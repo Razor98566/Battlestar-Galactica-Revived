@@ -1,0 +1,27 @@
+{
+  "variantId": "bsg_gorgon_variant",
+  "hullId": "bsg_gorgon",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "PCSDRGS",
+        "WS0002": "PCSDRGS"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "bsg_rm1_wing",
+    "bsg_rm1_wing",
+    "bsg_rm2_wing"
+  ]
+}

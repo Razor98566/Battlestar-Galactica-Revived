@@ -1,0 +1,58 @@
+{
+  "variantId": "bsg_revenant_variant",
+  "hullId": "bsg_revenant",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "PCSCMM",
+        "WS0002": "PCSCMM"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "PCSDRGL",
+        "WS0004": "PCSDRGL"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "CYLA",
+        "WS0009": "CYLA",
+        "WS0011": "CYLA",
+        "WS0013": "CYLA",
+        "WS0015": "CYLA"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "CYLA",
+        "WS0010": "CYLA",
+        "WS0012": "CYLA",
+        "WS0014": "CYLA",
+        "WS0016": "CYLA"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}
