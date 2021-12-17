@@ -1,0 +1,215 @@
+{
+  "hullName": "Minotaur",
+  "hullId": "bsg_minotaur",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/Colonial Fleet/col_minotaur.png",
+  "style": "HIGH_TECH",
+  "height": 330,
+  "width": 108,
+  "center": [54, 165],
+  "collisionRadius": 166,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 167.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": 0,
+      "locations": [110, 19]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": -0,
+      "locations": [110, -19]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": 90,
+      "locations": [53, 42]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": -90,
+      "locations": [54, -42]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": 90,
+      "locations": [-3, 42]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": -90,
+      "locations": [16.5, -42]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": 90,
+      "locations": [-21.5, 42]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": -90,
+      "locations": [-2, -42]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": 90,
+      "locations": [-40, 42]
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": -90,
+      "locations": [-39.5, -42]
+    },
+    {
+      "id": "WS0011",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": 0,
+      "locations": [63, 0.5]
+    },
+    {
+      "id": "WS0013",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": 0,
+      "locations": [16, 0.5]
+    },
+    {
+      "id": "WS0014",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": 0,
+      "locations": [-31.5, 0.5]
+    },
+    {
+      "id": "WS0012",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": 90,
+      "locations": [15.5, 42]
+    },
+    {
+      "id": "WS0015",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": -90,
+      "locations": [-20.5, -42]
+    },
+    {
+      "id": "WS0016",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": 90,
+      "locations": [34.5, 42]
+    },
+    {
+      "id": "WS0017",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": -90,
+      "locations": [34.5, -42]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-163, 28],
+      "length": 50.5,
+      "width": 26,
+      "angle": 180,
+      "contrailSize": 26,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-163, -28],
+      "length": 50.5,
+      "width": 26,
+      "angle": -180,
+      "contrailSize": 26,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -131, -5.5,
+    -166, -16.5,
+    -166, -40.5,
+    -139.5, -46.5,
+    -79, -46.5,
+    -49, -40.5,
+    -49, -54,
+    62.5, -55,
+    62.5, -32.5,
+    74.5, -32.5,
+    76.5, -45,
+    135, -30,
+    165, -14.5,
+    165, 14.5,
+    135, 30,
+    76.5, 45,
+    74.5, 32.5,
+    62.5, 32.5,
+    62.5, 55,
+    -49, 54,
+    -49, 40.5,
+    -79, 46.5,
+    -139.5, 46.5,
+    -166, 40.5,
+    -166, 16.5,
+    -131, 5.5
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "hullName": "Guardian Basestar",
+  "hullId": "bsg_gbasestar",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/Cylon/bsg_new_guardian.png",
+  "style": "MIDLINE",
+  "height": 404,
+  "width": 216,
+  "center": [107, 181],
+  "collisionRadius": 225,
+  "shieldCenter": [-1, -1.5],
+  "shieldRadius": 227,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "Missile Front 1",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 359,
+      "angle": 1,
+      "locations": [174.5, 1.5]
+    },
+    {
+      "id": "Left Med 1",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 320,
+      "angle": 31.5,
+      "locations": [102.5, 56.5]
+    },
+    {
+      "id": "Right Med 1",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 302,
+      "angle": -31.5,
+      "locations": [96.5, -57]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 1,
+      "locations": [92, -0.5]
+    },
+    {
+      "id": "Left Mis 4",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 145.5,
+      "locations": [-142, 77.5]
+    },
+    {
+      "id": "Right Mis 4",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": -145.5,
+      "locations": [-133, -77]
+    },
+    {
+      "id": "Left Mis 3",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 145.5,
+      "locations": [-84, 46]
+    },
+    {
+      "id": "Right Mis 3",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": -147.5,
+      "locations": [-72.5, -41]
+    },
+    {
+      "id": "Rear Med 1",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 297,
+      "angle": -179,
+      "locations": [-108.5, -1]
+    },
+    {
+      "id": "Left Med 2",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 301,
+      "angle": 31.5,
+      "locations": [66.5, 37]
+    },
+    {
+      "id": "Right Med 2",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 295,
+      "angle": -31.5,
+      "locations": [62, -37.5]
+    },
+    {
+      "id": "Mid L Med 1",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 255,
+      "angle": 31.5,
+      "locations": [32, 24]
+    },
+    {
+      "id": "Mid R Med 1",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 254,
+      "angle": -31.5,
+      "locations": [32, -23.5]
+    },
+    {
+      "id": "Mid L Med 2",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 246,
+      "angle": 71.5,
+      "locations": [8.5, 39]
+    },
+    {
+      "id": "Mid R Med 2",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 246,
+      "angle": -66.5,
+      "locations": [7.5, -40.5]
+    },
+    {
+      "id": "Mid L Med 3",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 261,
+      "angle": 115,
+      "locations": [-21, 39.5]
+    },
+    {
+      "id": "Mid R Med 3",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 261,
+      "angle": -103.5,
+      "locations": [-21, -46.5]
+    },
+    {
+      "id": "Rear Med 2",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 267,
+      "angle": -179,
+      "locations": [-64, -0.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        97.5, -57.5,
+        99, 55
+      ]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -121.5, -8,
+    -104, -10,
+    -52, -12.5,
+    -50.5, -14.5,
+    -181, -100.5,
+    -176, -110.5,
+    -40, -38,
+    -34, -38,
+    -26.5, -44,
+    -11.5, -49,
+    4, -49,
+    21, -43,
+    32.5, -34,
+    106.5, -68.5,
+    111.5, -58.5,
+    44.5, -15,
+    212, -7,
+    223, -4.5,
+    223, 4.5,
+    212, 7,
+    46.5, 11.5,
+    110.5, 56,
+    105.5, 65,
+    34, 31.5,
+    13.5, 43.5,
+    -2.5, 46,
+    -14, 45.5,
+    -28.5, 39,
+    -34.5, 35,
+    -39, 35,
+    -175.5, 107.5,
+    -181.5, 97.5,
+    -50, 11.5,
+    -51.5, 9.5,
+    -104.5, 7.5,
+    -121.5, 4
+  ]
+}

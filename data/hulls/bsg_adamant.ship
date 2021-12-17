@@ -1,0 +1,185 @@
+{
+  "hullName": "Adamant",
+  "hullId": "bsg_adamant",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/Colonial Fleet/col_adamant.png",
+  "style": "MIDLINE",
+  "height": 281,
+  "width": 76,
+  "center": [38, 140.5],
+  "collisionRadius": 143,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 145,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        23.5, 34.5,
+        -40.5, 34
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        24, -34,
+        -39, -33.5
+      ]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 197,
+      "angle": -90,
+      "locations": [17.5, -34]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 197,
+      "angle": 90,
+      "locations": [17.5, 34]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 197,
+      "angle": -90,
+      "locations": [-5.5, -34]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 197,
+      "angle": 90,
+      "locations": [-5.5, 34]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 197,
+      "angle": -90,
+      "locations": [-34, -34]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 197,
+      "angle": 90,
+      "locations": [-34, 34]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 39.5,
+      "locations": [88, 16]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -39.5,
+      "locations": [88, -16]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -39.5,
+      "locations": [56.5, -16]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 39.5,
+      "locations": [56.5, 16]
+    },
+    {
+      "id": "WS0011",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-1, -1]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-139, -23.5],
+      "length": 61,
+      "width": 25,
+      "angle": 180,
+      "contrailSize": 25,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-139, 23.5],
+      "length": 61,
+      "width": 25,
+      "angle": -180,
+      "contrailSize": 25,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    140, -13.5,
+    95.5, -26.5,
+    39, -31.5,
+    24, -29,
+    24, -38,
+    -40, -38.5,
+    -39.5, -33.5,
+    -73.5, -34.5,
+    -97, -37.5,
+    -117, -36.5,
+    -139.5, -34,
+    -140.5, -10.5,
+    -118.5, -8.5,
+    -118.5, 8.5,
+    -140.5, 10.5,
+    -139.5, 34,
+    -117, 36.5,
+    -97, 37.5,
+    -73.5, 34.5,
+    -39.5, 33.5,
+    -40, 38.5,
+    24, 38,
+    24, 29,
+    39, 31.5,
+    95.5, 26.5,
+    140, 13.5
+  ]
+}

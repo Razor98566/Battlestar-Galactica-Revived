@@ -1,0 +1,120 @@
+{
+  "hullName": "Ragnar Battlestation",
+  "hullId": "bsg_ragnar",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/Colonial Fleet/Col_Ragnar.png",
+  "style": "HIGH_TECH",
+  "height": 510,
+  "width": 510,
+  "center": [253.5, 256.5],
+  "collisionRadius": 86.5,
+  "shieldCenter": [0, 1],
+  "shieldRadius": 91.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "supercomputer",
+    "stealth_minefield_lt",
+    "stealth_minefield",
+    "vastbulk"
+  ],
+  "weaponSlots": [
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-99.5, 79.5]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [80.5, 105.5]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [110, -75]
+    },
+    {
+      "id": "LB 4",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-73.5, -111]
+    },
+    {
+      "id": "WS0041",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 195,
+      "angle": -126,
+      "locations": [-24, -39]
+    },
+    {
+      "id": "WS0042",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 195,
+      "angle": -34.5,
+      "locations": [41.5, -23]
+    },
+    {
+      "id": "WS0043",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 195,
+      "angle": 53.5,
+      "locations": [25.5, 40.5]
+    },
+    {
+      "id": "WS0044",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 195,
+      "angle": 144.5,
+      "locations": [-37, 26]
+    },
+    {
+      "id": "WS0045",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -75,
+      "locations": [0.5, -0.5]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -83, 16,
+    -69.5, 48.5,
+    -43.5, 71,
+    -15, 83,
+    32.5, 77,
+    64, 56,
+    82.5, 15,
+    82.5, -15,
+    64, -56,
+    32.5, -77,
+    -15, -83,
+    -43.5, -71,
+    -69.5, -48.5,
+    -83, -16
+  ]
+}

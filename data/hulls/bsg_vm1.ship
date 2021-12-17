@@ -1,0 +1,79 @@
+{
+  "hullName": "Viper MKI",
+  "hullId": "bsg_vm1",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/Colonial Fleet/Col_ViperMkI.png",
+  "style": "HIGH_TECH",
+  "height": 30,
+  "width": 16,
+  "center": [8, 14],
+  "collisionRadius": 16.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 16.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 6,
+      "angle": 0,
+      "locations": [2, 3.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 6.7,
+      "angle": -0,
+      "locations": [2, -3.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 6.7,
+      "angle": 0,
+      "locations": [12, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-14, 2.5],
+      "length": 20,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-14, -2.5],
+      "length": 20,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-14, -0],
+      "length": 20,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    15.5, -2.5,
+    15.5, 2,
+    2.5, 4,
+    -3.5, 8,
+    -14, 8,
+    -14, -8.5,
+    -3.5, -8.5,
+    2.5, -4.5
+  ]
+}

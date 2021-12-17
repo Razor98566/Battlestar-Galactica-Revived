@@ -1,0 +1,224 @@
+{
+  "hullName": "Intruder",
+  "hullId": "bsg_intruder",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/Cylon/bsg_new_intruder.png",
+  "style": "MIDLINE",
+  "height": 350,
+  "width": 236,
+  "center": [116.5, 171],
+  "collisionRadius": 180,
+  "shieldCenter": [-1, 1],
+  "shieldRadius": 180.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "Front 1",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 0,
+      "locations": [136.5, 35]
+    },
+    {
+      "id": "Front 2",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -0,
+      "locations": [136.5, -35]
+    },
+    {
+      "id": "Missile 1",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 272,
+      "angle": 0,
+      "locations": [141, 68.5]
+    },
+    {
+      "id": "Missile 2",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 272,
+      "angle": -0,
+      "locations": [141, -68.5]
+    },
+    {
+      "id": "Missile 5",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 286,
+      "angle": 0,
+      "locations": [122, 90]
+    },
+    {
+      "id": "Missile 3",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 286,
+      "angle": -0,
+      "locations": [122, -90]
+    },
+    {
+      "id": "Missile 6",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 304,
+      "angle": 0,
+      "locations": [97, 104]
+    },
+    {
+      "id": "Missile 4",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 304,
+      "angle": -0,
+      "locations": [97, -104]
+    },
+    {
+      "id": "Upper 1",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 182,
+      "angle": 0,
+      "locations": [85.5, 35]
+    },
+    {
+      "id": "Upper 2",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 182,
+      "angle": -0,
+      "locations": [85.5, -35]
+    },
+    {
+      "id": "Upper 4",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 183,
+      "angle": -0,
+      "locations": [47, 71.5]
+    },
+    {
+      "id": "Upper 3",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 183,
+      "angle": 0,
+      "locations": [47, -71.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -24.5, 83,
+        55.5, 92
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -22, -77,
+        51.5, -77
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-2, 17.5],
+      "length": 92,
+      "width": 30,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-2, -17.5],
+      "length": 92,
+      "width": 30,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    177, -17,
+    132, -38,
+    158.5, -42,
+    152, -59.5,
+    131, -88.5,
+    106, -104.5,
+    80.5, -112.5,
+    58.5, -114,
+    58, -117,
+    46, -117,
+    41.5, -113,
+    42, -104.5,
+    36.5, -104.5,
+    30, -100.5,
+    19.5, -100,
+    14.5, -102,
+    -27, -102.5,
+    -36.5, -98.5,
+    -83, -100,
+    -169, -65,
+    -171.5, -59.5,
+    -142, -50,
+    -80, -55,
+    -43.5, -53,
+    8, -44.5,
+    33, -35.5,
+    4.5, -33,
+    -3.5, -27.5,
+    -3.5, 27.5,
+    4.5, 33,
+    33, 35.5,
+    8, 44.5,
+    -43.5, 53,
+    -80, 55,
+    -142, 50,
+    -171.5, 59.5,
+    -169, 65,
+    -83, 100,
+    -36.5, 98.5,
+    -27, 102.5,
+    14.5, 102,
+    19.5, 100,
+    30, 100.5,
+    36.5, 104.5,
+    42, 104.5,
+    41.5, 113,
+    46, 117,
+    58, 117,
+    58.5, 114,
+    80.5, 112.5,
+    106, 104.5,
+    131, 88.5,
+    152, 59.5,
+    158.5, 42,
+    132, 38,
+    177, 17
+  ]
+}

@@ -1,0 +1,350 @@
+{
+  "hullName": "Juptier Class",
+  "hullId": "bsg_galactica",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/Colonial Fleet/bsg_new_galactica.png",
+  "style": "MIDLINE",
+  "height": 920,
+  "width": 360,
+  "center": [180, 460],
+  "collisionRadius": 436,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 470.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "Arty 1",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 296,
+      "angle": 0,
+      "locations": [39, 12]
+    },
+    {
+      "id": "Arty 2",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 296,
+      "angle": -0,
+      "locations": [39, -12]
+    },
+    {
+      "id": "Arty 4",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 295,
+      "angle": 0,
+      "locations": [-6.5, 12]
+    },
+    {
+      "id": "Arty 3",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 295,
+      "angle": -0,
+      "locations": [-6.5, -12]
+    },
+    {
+      "id": "Arty 5",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 241,
+      "angle": 0,
+      "locations": [-124, 12]
+    },
+    {
+      "id": "Arty 6",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 241,
+      "angle": -0,
+      "locations": [-124, -12]
+    },
+    {
+      "id": "Arty 8",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 241,
+      "angle": 0,
+      "locations": [-169, 12]
+    },
+    {
+      "id": "Arty 7",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 241,
+      "angle": -0,
+      "locations": [-169, -12]
+    },
+    {
+      "id": "Front 1",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 250,
+      "angle": 0,
+      "locations": [339.5, 83.5]
+    },
+    {
+      "id": "Front 4",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 250,
+      "angle": -0,
+      "locations": [339.5, -83.5]
+    },
+    {
+      "id": "Front 2",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 252,
+      "angle": 0,
+      "locations": [432.5, 39.5]
+    },
+    {
+      "id": "Front 3",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 252,
+      "angle": -0,
+      "locations": [432.5, -39.5]
+    },
+    {
+      "id": "Missile 1",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [168.5, 33.5]
+    },
+    {
+      "id": "Missile 4",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -0,
+      "locations": [168.5, -33.5]
+    },
+    {
+      "id": "Missile 2",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [168.5, 12]
+    },
+    {
+      "id": "Missile 3",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -0,
+      "locations": [168.5, -12]
+    },
+    {
+      "id": "Flak 1",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 198,
+      "angle": 104,
+      "locations": [-173, 166.5]
+    },
+    {
+      "id": "Flak 2",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 198,
+      "angle": -104,
+      "locations": [-173, -166.5]
+    },
+    {
+      "id": "Flak 3",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 192,
+      "angle": 90,
+      "locations": [-97, 173.5]
+    },
+    {
+      "id": "Flak 7",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 192,
+      "angle": -90,
+      "locations": [-97, -173.5]
+    },
+    {
+      "id": "Flak 4",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 209,
+      "angle": 90,
+      "locations": [-26, 176.5]
+    },
+    {
+      "id": "Flak 8",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 209,
+      "angle": -90,
+      "locations": [-26, -176.5]
+    },
+    {
+      "id": "Flak 5",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 208,
+      "angle": 90,
+      "locations": [45, 173.5]
+    },
+    {
+      "id": "FLak 9",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 208,
+      "angle": -90,
+      "locations": [45, -173.5]
+    },
+    {
+      "id": "Flak 6",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 223,
+      "angle": 86.5,
+      "locations": [117, 166.5]
+    },
+    {
+      "id": "Flak 10",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 223,
+      "angle": -86.5,
+      "locations": [117, -166.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-220, -129.5]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [169.5, -129]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [170, 139]
+    },
+    {
+      "id": "LB 4",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-220.5, 138.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-454.5, -77.5],
+      "length": 114.5,
+      "width": 48,
+      "angle": 180,
+      "contrailSize": 48,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-454.5, 77.5],
+      "length": 114.5,
+      "width": 48,
+      "angle": -180,
+      "contrailSize": 48,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-386.5, -17.5],
+      "length": 104.5,
+      "width": 38,
+      "angle": 180,
+      "contrailSize": 38,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-386.5, 17.5],
+      "length": 104.5,
+      "width": 38,
+      "angle": -180,
+      "contrailSize": 38,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    442.5, -63,
+    339, -93,
+    174.5, -116,
+    175, -156.5,
+    44, -179.5,
+    -97.5, -180.5,
+    -231.5, -154.5,
+    -232, -115.5,
+    -385.5, -117,
+    -461, -100.5,
+    -461, -48.5,
+    -428.5, -47,
+    -428.5, -33.5,
+    -393.5, -33,
+    -393.5, 33,
+    -428.5, 33.5,
+    -428.5, 47,
+    -461, 48.5,
+    -461, 100.5,
+    -385.5, 117,
+    -232, 115.5,
+    -231.5, 154.5,
+    -97.5, 180.5,
+    44, 179.5,
+    175, 156.5,
+    174.5, 116,
+    339, 93,
+    442.5, 63
+  ]
+}

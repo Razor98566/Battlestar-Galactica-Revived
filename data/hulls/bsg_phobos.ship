@@ -1,0 +1,157 @@
+{
+  "hullName": "Phobos",
+  "hullId": "bsg_phobos",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/Cylon/cyl_phobos.png",
+  "style": "HIGH_TECH",
+  "height": 350,
+  "width": 112,
+  "center": [56, 175],
+  "collisionRadius": 177.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 180.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 292,
+      "angle": 0,
+      "locations": [-99, 24]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 292,
+      "angle": -0,
+      "locations": [-99, -24]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 292,
+      "angle": 0,
+      "locations": [-27, 23.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 292,
+      "angle": -0,
+      "locations": [-27, -23.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 292,
+      "angle": 90,
+      "locations": [35, 27.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 292,
+      "angle": -90,
+      "locations": [35, -27.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 292,
+      "angle": -90,
+      "locations": [12.5, -27.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 292,
+      "angle": 90,
+      "locations": [12.5, 27.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 292,
+      "angle": 0,
+      "locations": [123, 1]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-171.5, 22.5],
+      "length": 47,
+      "width": 25,
+      "angle": 180,
+      "contrailSize": 25,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-172.5, -24],
+      "length": 47,
+      "width": 25,
+      "angle": -180,
+      "contrailSize": 25,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -151.5, -11,
+    -172, -16,
+    -175.5, -24,
+    -167, -38.5,
+    -150, -38.5,
+    -149, -47.5,
+    -130.5, -47.5,
+    -130.5, -56.5,
+    -79, -55,
+    1.5, -45.5,
+    45, -46.5,
+    70.5, -42,
+    164.5, -40.5,
+    175.5, -36,
+    121.5, -34,
+    121.5, -29.5,
+    92, -29.5,
+    92, -10.5,
+    134.5, -10.5,
+    144, -3,
+    144, 6,
+    136.5, 11.5,
+    92, 11.5,
+    92, 29.5,
+    121.5, 29.5,
+    122, 36.5,
+    174.5, 38.5,
+    164, 43.5,
+    70, 44.5,
+    43, 48.5,
+    2, 48,
+    -79, 55,
+    -130.5, 56.5,
+    -130.5, 46,
+    -150, 46.5,
+    -152, 38.5,
+    -168, 38.5,
+    -175.5, 24,
+    -173, 16,
+    -151.5, 11
+  ]
+}

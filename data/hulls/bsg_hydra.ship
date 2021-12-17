@@ -1,0 +1,77 @@
+{
+  "hullName": "Hydra Tanker",
+  "hullId": "bsg_hydra",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/Cylon/bsg_hydra.png",
+  "style": "MIDLINE",
+  "height": 231,
+  "width": 61,
+  "center": [30, 113],
+  "collisionRadius": 118.5,
+  "shieldCenter": [0, 1],
+  "shieldRadius": 120.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 227,
+      "angle": 0,
+      "locations": [58, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-112, 13],
+      "length": 56,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-112, -13],
+      "length": 56,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -104, 2.5,
+    -108, 2.5,
+    -112.5, 9.5,
+    -112.5, 19,
+    -107.5, 24.5,
+    -74, 24.5,
+    -71.5, 28.5,
+    42, 29.5,
+    62.5, 29,
+    63.5, 17.5,
+    65, 17.5,
+    73.5, 25.5,
+    92.5, 25.5,
+    118, 8,
+    118, 5,
+    115, 5,
+    115, -5,
+    118, -5,
+    118.5, -9,
+    92.5, -25.5,
+    73.5, -25.5,
+    65, -17.5,
+    63.5, -17.5,
+    61.5, -29,
+    41.5, -30.5,
+    -71.5, -29,
+    -75.5, -24.5,
+    -107.5, -24.5,
+    -112.5, -19,
+    -112.5, -9.5,
+    -108, -2.5,
+    -104, -2.5
+  ]
+}

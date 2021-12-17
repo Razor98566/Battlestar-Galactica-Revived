@@ -1,0 +1,110 @@
+{
+  "hullName": "Manticore",
+  "hullId": "bsg_manticore",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/Colonial Fleet/col_manticore.png",
+  "style": "HIGH_TECH",
+  "height": 180,
+  "width": 65,
+  "center": [32.5, 90],
+  "collisionRadius": 91,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 95,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 280,
+      "angle": 0,
+      "locations": [77, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": 180,
+      "locations": [-35, 0.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 280,
+      "angle": 0,
+      "locations": [32, 12]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 280,
+      "angle": -0,
+      "locations": [32, -12]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-69, 5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-69, -5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-89, 25.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-89, -25.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -69.5, -19,
+    -90, -21,
+    -90, -29,
+    -45.5, -33,
+    -30.5, -29.5,
+    -30.5, -16.5,
+    -18.5, -16.5,
+    -12, -21.5,
+    23, -21.5,
+    64.5, -13,
+    90.5, -3.5,
+    90.5, 3.5,
+    64.5, 13,
+    23, 21.5,
+    -12, 21.5,
+    -18.5, 16.5,
+    -30.5, 16.5,
+    -30.5, 29.5,
+    -45.5, 33,
+    -90, 29,
+    -90, 21,
+    -69.5, 19
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "hullName": "Erebus Class",
+  "hullId": "bsg_erebus",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/Colonial Fleet/bsg_new_erebus.png",
+  "style": "MIDLINE",
+  "height": 208,
+  "width": 74,
+  "center": [37.5, 102.5],
+  "collisionRadius": 106.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 107.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "Front 3",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -0,
+      "locations": [63, -0]
+    },
+    {
+      "id": "Right",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -90,
+      "locations": [-18, -31]
+    },
+    {
+      "id": "Left",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 90,
+      "locations": [-18, 31]
+    },
+    {
+      "id": "Missile 2",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -32.5,
+      "locations": [17, -24]
+    },
+    {
+      "id": "Missile 1",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 32.5,
+      "locations": [17, 24]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-67, 1]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-101.5, 22.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-101.5, -22.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -69, 9,
+    -76, 9.5,
+    -76, 11.5,
+    -100.5, 11.5,
+    -102.5, 16,
+    -102.5, 29,
+    -36.5, 28.5,
+    -36, 33.5,
+    -33.5, 36.5,
+    -7.5, 36.5,
+    -6, 31.5,
+    1.5, 31.5,
+    1.5, 36.5,
+    12.5, 36.5,
+    25.5, 13,
+    33, 10,
+    37, 14,
+    38, 28,
+    60.5, 25.5,
+    83, 19.5,
+    105.5, 9,
+    105.5, -9,
+    83, -19.5,
+    60.5, -25.5,
+    38, -28,
+    37, -14,
+    33, -10,
+    25.5, -13,
+    12.5, -36.5,
+    1.5, -36.5,
+    1.5, -31.5,
+    -6, -31.5,
+    -7.5, -36.5,
+    -33.5, -36.5,
+    -36, -33.5,
+    -36.5, -28.5,
+    -102.5, -29,
+    -102.5, -16,
+    -100.5, -11.5,
+    -76, -11.5,
+    -76, -9.5,
+    -69, -9
+  ]
+}

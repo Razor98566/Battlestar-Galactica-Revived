@@ -1,0 +1,173 @@
+{
+  "hullName": "Erebus Class",
+  "hullId": "bsg_erebus",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/Colonial Fleet/bsg_new_erebus.png",
+  "style": "MIDLINE",
+  "height": 418,
+  "width": 150,
+  "center": [75, 209],
+  "collisionRadius": 211,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 213.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "Front 1",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 0,
+      "locations": [202.5, -16]
+    },
+    {
+      "id": "Front 2",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": -0,
+      "locations": [202.5, 16]
+    },
+    {
+      "id": "Front 3",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -0,
+      "locations": [128, 0.5]
+    },
+    {
+      "id": "Right",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -90,
+      "locations": [-40, -50]
+    },
+    {
+      "id": "Left",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 90,
+      "locations": [-40, 50]
+    },
+    {
+      "id": "Flak 1",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 212,
+      "angle": -90,
+      "locations": [100.5, -40]
+    },
+    {
+      "id": "Flak 2",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 212,
+      "angle": 90,
+      "locations": [100.5, 40]
+    },
+    {
+      "id": "Missile 2",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 212,
+      "angle": -28.5,
+      "locations": [32.5, -45]
+    },
+    {
+      "id": "Missile 1",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 212,
+      "angle": 28.5,
+      "locations": [32.5, 45]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-135, 4]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-12.5, 3]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-209, -45.5],
+      "length": 113,
+      "width": 38,
+      "angle": 180,
+      "contrailSize": 38,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-209, 45.5],
+      "length": 113,
+      "width": 38,
+      "angle": -180,
+      "contrailSize": 38,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    207.5, 17.5,
+    145.5, 44.5,
+    74.5, 55.5,
+    69, 26.5,
+    63.5, 20.5,
+    46.5, 26,
+    21.5, 65.5,
+    21.5, 74.5,
+    -1, 74.5,
+    -1, 63.5,
+    -16.5, 63.5,
+    -17, 74,
+    -72.5, 73.5,
+    -74, 58,
+    -207.5, 58,
+    -207.5, 36,
+    -206, 21.5,
+    -155, 22,
+    -141.5, 18.5,
+    -141.5, -18.5,
+    -155, -22,
+    -206, -21.5,
+    -207.5, -36,
+    -207.5, -58,
+    -74, -58,
+    -72.5, -73.5,
+    -17, -74,
+    -16.5, -63.5,
+    -1, -63.5,
+    -1, -74.5,
+    21.5, -74.5,
+    21.5, -65.5,
+    46.5, -26,
+    63.5, -20.5,
+    69, -26.5,
+    74.5, -55.5,
+    145.5, -44.5,
+    207.5, -17.5
+  ]
+}

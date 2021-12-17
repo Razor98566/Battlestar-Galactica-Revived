@@ -1,0 +1,147 @@
+{
+  "hullName": "Colonial Defender",
+  "hullId": "bsg_defender",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/Colonial Fleet/bsg_defender.png",
+  "style": "LOW_TECH",
+  "height": 209,
+  "width": 71,
+  "center": [36, 102.5],
+  "collisionRadius": 107,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 108,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "Front 1",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 262,
+      "angle": 0,
+      "locations": [82.5, 0.5]
+    },
+    {
+      "id": "Missile 1",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [40, -16]
+    },
+    {
+      "id": "Missile 2",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -0,
+      "locations": [40, 16]
+    },
+    {
+      "id": "Front 3",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -90,
+      "locations": [7, -29.5]
+    },
+    {
+      "id": "Front 2",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 90,
+      "locations": [7, 29.5]
+    },
+    {
+      "id": "PD 1",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-30, -24]
+    },
+    {
+      "id": "PD 2",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-30.5, 24]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [2.5, 1.5]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-70.5, 2]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-102.5, -20.5],
+      "length": 34,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-102.5, 21.5],
+      "length": 34,
+      "width": 15,
+      "angle": -180,
+      "contrailSize": 15,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -71.5, -5.5,
+    -102.5, -6,
+    -103.5, -28.5,
+    -96, -33.5,
+    -71.5, -32.5,
+    -71.5, -29.5,
+    -55, -29.5,
+    -41, -24.5,
+    -21.5, -24.5,
+    -5, -36,
+    17.5, -36,
+    35, -22,
+    62.5, -21.5,
+    86.5, -15.5,
+    107, -7.5,
+    107, 7.5,
+    86.5, 15.5,
+    62.5, 21.5,
+    35, 22,
+    17.5, 36,
+    -5, 36,
+    -21.5, 24.5,
+    -41, 24.5,
+    -55, 29.5,
+    -71.5, 29.5,
+    -71.5, 32.5,
+    -96, 33.5,
+    -103.5, 28.5,
+    -102.5, 6,
+    -71.5, 5.5
+  ]
+}

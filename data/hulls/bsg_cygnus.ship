@@ -1,0 +1,191 @@
+{
+  "hullName": "Cygnus Class",
+  "hullId": "bsg_cygnus",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/Colonial Fleet/bsg_cyngus.png",
+  "style": "HIGH_TECH",
+  "height": 201,
+  "width": 80,
+  "center": [40, 98.5],
+  "collisionRadius": 103.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 104,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "Front 1",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 226,
+      "angle": 0,
+      "locations": [87, 16]
+    },
+    {
+      "id": "Front 2",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 226,
+      "angle": -0,
+      "locations": [87, -16]
+    },
+    {
+      "id": "Top Front 2",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 226,
+      "angle": 0,
+      "locations": [64, -0]
+    },
+    {
+      "id": "Top Rear 1",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 226,
+      "angle": -1,
+      "locations": [8.5, -0]
+    },
+    {
+      "id": "Top Rear 3",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 244,
+      "angle": 180,
+      "locations": [-41.5, -0]
+    },
+    {
+      "id": "Missile Left 2",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [24, 20]
+    },
+    {
+      "id": "Missile Right 2",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [24, -20]
+    },
+    {
+      "id": "Missile Left 3",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-17.5, 22.5]
+    },
+    {
+      "id": "Missile Right 3",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-17.5, -22.5]
+    },
+    {
+      "id": "Flak Left 2",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 56.5,
+      "locations": [38, 30.5]
+    },
+    {
+      "id": "Flak Right 2",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -56.5,
+      "locations": [38, -30.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -14, 37.5,
+        -14.5, -37
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-97, 13],
+      "length": 24,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-97, -13],
+      "length": 24,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-98.5, -0],
+      "length": 49.5,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -99, -15.5,
+    -89, -19.5,
+    -74.5, -23,
+    -47.5, -26.5,
+    -42.5, -31,
+    -31, -32,
+    -26, -40.5,
+    -4, -40.5,
+    1, -35.5,
+    33.5, -35.5,
+    48, -26,
+    59, -25,
+    75, -21,
+    99, -11.5,
+    100, -6.5,
+    103, -6,
+    103, -3.5,
+    101, -3,
+    101, 3,
+    103, 3.5,
+    103, 6,
+    100, 6.5,
+    99, 11.5,
+    75, 21,
+    59, 25,
+    48, 26,
+    33.5, 35.5,
+    1, 35.5,
+    -4, 40.5,
+    -26, 40.5,
+    -31, 32,
+    -42.5, 31,
+    -47.5, 26.5,
+    -74.5, 23,
+    -89, 19.5,
+    -99, 15.5
+  ]
+}

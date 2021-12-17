@@ -1,0 +1,178 @@
+{
+  "hullName": "Ranger",
+  "hullId": "bsg_ranger",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/Colonial Fleet/col_ranger.png",
+  "style": "LOW_TECH",
+  "height": 400,
+  "width": 101,
+  "center": [50.5, 200],
+  "collisionRadius": 202.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 205,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [65.5, 39]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [65.5, -39]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [20, -38.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [20, 38.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 0,
+      "locations": [184.5, -11.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": -0,
+      "locations": [184.5, 11.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [151, -19.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": -0,
+      "locations": [151, 19.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [84, -9]
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": -0,
+      "locations": [84, 9]
+    },
+    {
+      "id": "WS0011",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 90,
+      "locations": [43.5, 35.5]
+    },
+    {
+      "id": "WS0012",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -90,
+      "locations": [43.5, -35.5]
+    },
+    {
+      "id": "WS0013",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -90,
+      "locations": [-2.5, -35.5]
+    },
+    {
+      "id": "WS0014",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 90,
+      "locations": [-2.5, 35.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-200, 26],
+      "length": 83.5,
+      "width": 32,
+      "angle": 180,
+      "contrailSize": 32,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-197.5, -27.5],
+      "length": 83.5,
+      "width": 32,
+      "angle": 180,
+      "contrailSize": 32,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -199, -49,
+    -102.5, -49,
+    -48, -38.5,
+    -14.5, -49.5,
+    106.5, -49.5,
+    129.5, -47,
+    169, -35,
+    200, -18,
+    200, 18,
+    169, 35,
+    129.5, 47,
+    106.5, 49.5,
+    -14.5, 49.5,
+    -51, 36,
+    -106.5, 47.5,
+    -199.5, 47.5
+  ]
+}

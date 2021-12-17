@@ -1,0 +1,50 @@
+name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating,max flux,8/6/5/4%,flux dissipation,ordnance points,fighter bays,max speed,acceleration,deceleration,max turn rate,turn acceleration,mass,shield type,defense id,shield arc,shield upkeep,shield efficiency,phase cost,phase upkeep,min crew,max crew,cargo,fuel,fuel/ly,range,max burn,base value,cr %/day,CR to deploy,peak CR sec,CR loss/sec,supplies/rec,supplies/mo,hints,tags,rarity,breakProb,minPieces,maxPieces,number
+Adamant,bsg_adamant,Frigate,Colonies of Kobol,,20,8500,800,2000,10000,150,200,2,50,25,5,10,10,3000,NONE,,0,0,0,,,30,500,100,300,5,27,7,120000,3,3,180,0.6,20,20,COMBAT,bsg_pack,,0,2,4,530
+Atlas,bsg_atlas,Carrier,Colonies of Kobol,,25,25000,1000,2000,10000,150,200,6,45,23,23,5,5,6000,NONE,,0,0,0,,,30,500,100,300,5,27,7,120000,3,3,180,0.6,20,20,COMBAT,bsg_pack,,0,2,4,531
+Berzerk,bsg_berserk,Fighter Support,Colonies of Kobol,,20,11000,1000,3000,10000,150,200,2,70,35,35,6,6,4500,NONE,,0,0,0,,,30,500,100,300,5,27,7,120000,3,3,180,0.6,20,20,COMBAT,bsg_pack,,0,2,4,532
+Heracles,bsg_heracles,Heavy Cruiser,Colonies of Kobol,,20,16000,1200,4000,10000,150,200,0,60,30,30,6,6,4500,NONE,,0,0,0,,,30,500,100,300,5,27,7,120000,3,3,180,0.6,20,20,COMBAT,bsg_pack,,0,2,4,533
+Janus,bsg_janus,Missile Cruiser,Colonies of Kobol,,25,14500,1000,4000,10000,150,200,0,50,25,25,6,6,5000,NONE,,0,0,0,,,30,500,100,300,5,27,7,120000,3,3,180,0.6,20,20,COMBAT,bsg_pack,,0,2,4,534
+Manticore,bsg_manticore,Scout,Colonies of Kobol,,10,6000,700,1200,10000,120,80,0,100,70,70,50,50,1500,NONE,,0,0,0,,,5,300,400,300,2,27,7,75000,2,2,90,0.3,15,15,COMBAT,bsg_pack,,0,2,4,535
+Minotaur,bsg_minotaur,Battleship,Colonies of Kobol,,30,10000,1000,6000,10000,150,300,0,50,25,5,6,6,5000,NONE,,0,0,0,,,30,500,100,300,5,27,7,120000,3,3,180,0.6,20,20,COMBAT,bsg_pack,,0,2,4,536
+Orion,bsg_orion,Stealth Star,Colonies of Kobol,combat_cloak,20,7000,500,3000,10000,150,200,1,70,25,25,10,10,2500,NONE,,0,0,0,,,30,500,100,300,5,27,7,120000,3,3,180,0.6,20,20,COMBAT,bsg_pack,,0,2,4,537
+Ranger,bsg_ranger,Missile Cruiser,Colonies of Kobol,,25,13000,800,5500,10000,150,200,0,50,25,5,6,6,4500,NONE,,0,0,0,,,30,500,100,300,5,27,7,120000,3,3,180,0.6,20,20,COMBAT,bsg_pack,,0,2,4,538
+Argos,bsg_argos,Basestar,Cylon,combat_jump,50,20000,1250,10000,50000,650,400,4,30,15,15,5,5,8000,NONE,,0,0,0,,,500,5000,1000,500,15,27,7,400000,3,12,720,0.25,50,50,"CARRIER, COMBAT",bsg_pack,,0.5,2,4,539
+Cerberus,bsg_cerberus,Basestar,Cylon,,30,15000,1300,10000,50000,650,280,4,30,15,15,5,5,8000,NONE,,0,0,0,,,500,5000,1000,500,15,27,7,400000,3,12,720,0.25,50,50,"CARRIER, COMBAT",bsg_pack,,0.5,2,4,540
+Cratus,bsg_cratus,Basestar,Cylon,combat_jump,50,35000,1250,10000,50000,650,500,6,30,15,15,8,8,10000,NONE,,0,0,0,,,500,5000,1000,500,15,27,7,500000,3,12,720,0.25,50,50,"CARRIER, COMBAT",bsg_pack,,0.5,2,4,541
+Gorgon,bsg_gorgon,Fighter Support,Cylon,,10,8000,700,200,10000,120,150,3,70,50,30,8,6,2000,NONE,,0,0,0,,,5,300,400,300,2,27,7,75000,2,2,90,0.3,15,15,COMBAT,bsg_pack,,0,2,4,512
+Nemesis,bsg_nemesis,Scout,Cylon,,10,6000,700,500,10000,120,150,0,100,70,70,50,50,1500,NONE,,0,0,0,,,5,300,400,300,2,27,7,75000,2,2,90,0.3,15,15,COMBAT,bsg_pack,,0,2,4,529
+Phobos,bsg_phobos,Tech Cruiser,Cylon,combat_jump,25,11000,800,2000,10000,120,150,0,70,50,30,8,6,6000,NONE,,0,0,0,,,5,300,400,300,2,27,7,75000,2,2,90,0.3,15,15,COMBAT,bsg_pack,,0,2,4,528
+Guardian,bsg_gbasestar,Support Basestar,Cylon,,30,13000,800,6000,25000,400,240,1,50,30,30,4,4,2000,NONE,,0,0,0,,,50,500,200,250,5,27,7,300000,3,3,180,0.6,30,30,COMBAT,bsg_pack,,0.5,2,4,506
+Arachne,bsg_arachne,Heavy Cruiser,Cylon,combat_jump,30,9000,500,2000,10000,300,180,1,70,50,50,6,6,2000,NONE,,0,0,0,,,50,500,150,250,5,27,7,200000,3,3,180,0.6,30,30,COMBAT,bsg_pack,,0.5,2,4,521
+Cygnus,bsg_cygnus,Heavy Cruiser,Colonies of Kobol,combat_jump,30,9000,500,2000,10000,300,180,1,70,50,50,6,6,2000,NONE,,0,0,0,,,50,500,150,250,5,27,7,200000,3,3,180,0.6,30,30,COMBAT,bsg_pack,,0.5,2,4,505
+Mercury,bsg_mercury,Battlestar,Colonies of Kobol,combat_jump,50,35000,1500,8000,50000,500,350,4,45,20,20,5,5,8000,NONE,,0,0,0,,,80,2500,650,500,15,27,7,450000,3,12,720,0.25,50,50,"CARRIER, COMBAT",bsg_pack,,0.5,2,4,504
+Hades Basestar,bsg_tosbasestar,TOS Basestar,Cylon,,50,25000,1200,12000,50000,700,300,4,30,15,15,5,5,8000,OMNI,,360,0.7,0.3,,,500,5000,1000,500,15,27,7,400000,3,12,720,0.25,50,50,COMBAT,bsg_pack,,0.5,2,4,522
+Basestar MKI,bsg_hbasestar,Basestar MkI,Cylon,,50,30000,1500,10000,50000,650,220,4,30,15,15,5,5,8000,NONE,,0,0,0,,,500,5000,1000,500,15,27,7,400000,3,12,720,0.25,50,50,"CARRIER, COMBAT",bsg_pack,,0.5,2,4,503
+Basestar MKII,bsg_basestar2,Basestar MkII,Cylon,combat_jump,50,23000,1300,8000,50000,500,300,6,40,10,10,6,6,8000,NONE,,0,0,0,,,1,2500,251,600,10,27,7,450000,3,12,720,0.25,50,50,"CARRIER, COMBAT",bsg_pack,,0.5,2,4,501
+Resurrection Ship,bsg_resurrection_ship,Resurrection Ship,Cylon,resurrect_raiders,25,8500,480,2000,50000,300,50,2,40,10,10,6,6,2000,NONE,,0,0,0,,,1,500,110,200,5,27,7,250000,3,3,180,0.6,25,25,CARRIER,bsg_pack,,0.5,2,4,523
+Jupiter,bsg_galactica,Battlestar,Colonies of Kobol,combat_jump,50,30000,1500,8000,50000,500,350,3,45,15,15,4,4,8000,NONE,,0,0,0,,,750,5000,850,600,15,27,7,400000,3,12,720,0.25,50,50,"CARRIER, COMBAT",bsg_pack,,0.5,2,4,500
+Artemis,bsg_artemis,TOS Battlestar,Colonies of Kobol,,50,25000,1500,12000,50000,700,350,3,45,15,15,4,4,8000,OMNI,,360,0.7,0.3,,,750,5000,850,600,15,27,7,400000,3,12,720,0.25,50,50,"CARRIER, COMBAT",bsg_pack,,0.5,2,4,500
+Heavy Raider,bsg_hraider,Bomber,Cylon,,,750,80,80,,40,0,,170,50,30,90,90,30,NONE,,0,0,0,,,1,15,0,,,,,,,,,,,,,bsg_pack,,0,,,105
+Raider,bsg_rm2,Fighter,Cylon,,,500,20,80,,40,0,,190,75,55,90,90,10,NONE,,0,0,0,,,1,1,0,,,,,,,,,,,,,bsg_pack,,0,,,104
+Raptor,bsg_raptor,Bomber,Colonies of Kobol,,,600,40,80,,40,0,,175,50,30,90,90,20,NONE,,0,0,0,,,1,15,0,,,,,,,,,,,,,bsg_pack,,0,,,103
+Valkyrie,bsg_valkyrie,Support Battlestar,Colonies of Kobol,combat_jump,30,15000,1300,6000,25000,400,224,1,45,25,5,6,6,5000,NONE,,0,0,0,,,210,2100,310,240,8,40,7,250000,3,12,600,0.25,30,30,COMBAT,bsg_pack,,0.5,2,4,502
+Viper MKI,bsg_vm1,Fighter,Colonies of Kobol,,,300,30,80,,40,0,,150,100,150,180,360,10,OMNI,,360,0,0.2,,,1,1,0,,,,,,,,,,,,,bsg_pack,,0,,,523
+Viper MKII,bsg_vm2,Fighter,Colonies of Kobol,,,500,30,80,,40,0,,210,100,210,180,360,10,NONE,,0,0,0,,,1,1,0,,,,,,,,,,,,,bsg_pack,,0,,,102
+Viper MKVII,bsg_vm7,Interceptor,Colonies of Kobol,,,750,70,80,,40,0,,250,100,250,180,360,15,NONE,,0,0,0,,,1,1,0,,,,,,,,,,,,,bsg_pack,,0,,,106
+Erebus,bsg_erebus,CBT Freighter,Colonies of Kobol,,10,5000,300,1200,10000,120,110,0,45,25,5,4,4,2000,NONE,,0,0,0,,,30,500,530,300,5,27,7,80000,3,3,180,0.6,10,10,"CIVILIAN, LINER, FREIGHTER",bsg_pack,,0,2,4,507
+Colonial Defender,bsg_defender,Destroyer,Colonies of Kobol,,20,10000,500,2000,10000,150,200,1,50,25,5,6,6,3000,NONE,,0,0,0,,,30,500,100,300,5,27,7,120000,3,3,180,0.6,20,20,COMBAT,bsg_pack,,0,2,4,512
+Intruder,bsg_intruder,CBT Freighter,Cylon,,15,9000,500,1200,10000,120,150,0,70,50,30,8,6,1000,NONE,,0,0,0,,,5,300,400,300,2,27,7,75000,2,2,90,0.3,15,15,COMBAT,bsg_pack,,0,2,4,508
+Hades Raider,bsg_rm1_tos,Heavy Fighter,Cylon,,,300,30,80,,40,0,,210,100,210,180,360,10,OMNI,,360,0,0.2,,,1,1,0,,,,,,,,,,,,,bsg_pack,,0,,,102
+Raider MKI,bsg_rm1,Heavy Fighter,Cylon,,,500,30,80,,40,0,,210,100,210,180,360,10,NONE,,0,0,0,,,1,1,0,,,,,,,,,,,,,bsg_pack,,0,,,102
+Ragnar Battlestation,bsg_ragnar,Star Fortress,Colonies of Kobol,,400,160000,2000,1000,2500,100,620,4,30,200,200,2,2,5000,NONE,,0,0,0,,,0,0,0,0,1,0,0,500000,10,10,,,100,50,"STATION, UNBOARDABLE, HIDE_IN_CODEX",,,0,,,524
+Ragnar Superstructure,bsg_ragnar_module,,Colonies of Kobol,,1,160000,2000,10000,2500,1000,380,,30,200,200,10,10,5000,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,1,2,3,526
+Resurrection Hub,bsg_hub,Star Fortress,Cylon,resurrect_basestars,400,120000,1800,1000,2500,100,620,6,30,200,200,2,2,5000,NONE,,0,0,0,,,0,0,0,0,1,0,0,500000,10,10,,,100,50,"STATION, UNBOARDABLE, HIDE_IN_CODEX",,,0,,,525
+Resurrection Hub Superstructure,bsg_hub_module,,Cylon,,1,120000,1800,10000,2500,1000,800,,30,200,200,40,40,5000,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,"UNBOARDABLE, HIDE_IN_CODEX",,,1,2,3,527
+Eversun Starliner,bsg_colonial_one,Starliner,Colonies of Kobol,,5,2000,250,200,200,10,20,0,60,25,5,8,8,500,NONE,,0,0,0,,,10,500,110,150,5,27,7,23000,3,3,180,0.6,5,5,"CIVILIAN, LINER",bsg_pack,,0,2,4,513
+Colonial Passenger Liner,bsg_cpl,Starliner,Colonies of Kobol,,5,2000,250,200,200,10,20,0,60,25,5,8,8,500,NONE,,0,0,0,,,10,700,110,150,5,27,7,45000,3,3,180,0.6,5,5,"CIVILIAN, LINER",bsg_pack,,0,2,4,514
+Gemini Freighter,bsg_freighter,Freighter,Colonies of Kobol,,5,2000,300,300,200,10,0,0,20,25,5,4,4,1500,NONE,,0,0,0,,,10,200,2500,150,5,27,7,75000,3,3,180,0.6,5,5,"CIVILIAN, FREIGHTER",bsg_pack,,0,2,4,515
+Bulk Tanker,bsg_tanker,Tanker,Colonies of Kobol,,5,2000,300,300,200,10,0,0,20,25,5,6,6,5000,NONE,,0,0,0,,,10,200,0,1000,5,27,7,60000,3,3,180,0.6,5,5,"CIVILIAN, TANKER",bsg_pack,,0,2,4,516
+Revenant,bsg_revenant,Destroyer,Cylon,,20,9000,1000,6000,200,400,180,0,50,26,10,8,8,5000,NONE,,0,0,0,,,10,500,110,150,5,27,7,150000,3,3,180,0.6,20,20,COMBAT,bsg_pack,,0,2,4,517
+Hydra Tanker,bsg_hydra,Tanker,Cylon,,5,2000,350,200,200,10,10,0,60,25,5,8,8,1500,NONE,,0,0,0,,,10,200,0,1000,5,27,7,45000,3,3,180,0.6,5,5,"CIVILIAN, TANKER",bsg_pack,,0,2,4,518
+Cerastes Transport,bsg_cera,Starliner,Cylon,,5,2000,400,300,200,10,20,0,60,25,5,8,8,500,NONE,,0,0,0,,,10,700,110,150,5,27,7,35000,3,3,180,0.6,5,5,"CIVILIAN, LINER",bsg_pack,,0,2,4,519
+Talon Freighter,bsg_talon,Freighter,Cylon,,5,2000,40,200,200,10,0,0,60,25,5,8,8,1500,NONE,,0,0,0,,,10,200,2500,150,5,27,7,50000,3,3,180,0.6,5,5,"CIVILIAN, FREIGHTER",bsg_pack,,0,2,4,520

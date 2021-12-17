@@ -1,0 +1,95 @@
+{
+  "hullName": "Nemesis",
+  "hullId": "bsg_nemesis",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/Cylon/cyl_nemesis.png",
+  "style": "HIGH_TECH",
+  "height": 190,
+  "width": 85,
+  "center": [42.5, 95],
+  "collisionRadius": 96.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 98.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 264,
+      "angle": 0,
+      "locations": [18, 18]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 264,
+      "angle": -0,
+      "locations": [18, -18]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 300,
+      "angle": -0,
+      "locations": [63.5, -1]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-92.5, 14],
+      "length": 41,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-93, -16],
+      "length": 41,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -72.5, -2.5,
+    -96.5, -16,
+    -84, -23,
+    -47.5, -21.5,
+    -44.5, -24.5,
+    -33.5, -37,
+    -14, -43,
+    1.5, -43,
+    38, -36.5,
+    41, -29,
+    -5.5, -29,
+    -5.5, -22,
+    30.5, -22,
+    31.5, -11.5,
+    80.5, -8.5,
+    95, -2.5,
+    95, 2.5,
+    80.5, 8.5,
+    31.5, 11.5,
+    30.5, 22,
+    -5.5, 22,
+    -5.5, 29,
+    41, 29,
+    38, 36.5,
+    1.5, 43,
+    -14, 43,
+    -33.5, 37,
+    -44.5, 24.5,
+    -47.5, 21.5,
+    -79, 23.5,
+    -97, 13.5,
+    -72.5, 2.5
+  ]
+}

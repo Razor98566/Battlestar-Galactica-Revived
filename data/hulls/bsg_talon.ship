@@ -1,0 +1,81 @@
+{
+  "hullName": "Talon Freighter",
+  "hullId": "bsg_talon",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/Cylon/bsg_talon.png",
+  "style": "HIGH_TECH",
+  "height": 246,
+  "width": 79,
+  "center": [39.5, 119.5],
+  "collisionRadius": 120.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 123,
+  "viewOffset": 0,
+  "weaponSlots": [],
+  "engineSlots": [
+    {
+      "location": [-109, 17],
+      "length": 50,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-109, -17],
+      "length": 50,
+      "width": 11,
+      "angle": -180,
+      "contrailSize": 11,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-111.5, 5.5],
+      "length": 28.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-111.5, -5.5],
+      "length": 28.5,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -119.5, -1.5,
+    -114, -3.5,
+    -112.5, -12,
+    -112, -20,
+    -80.5, -22,
+    -80.5, -28,
+    -66, -30,
+    -61, -37,
+    68, -39.5,
+    74.5, -33,
+    82.5, -31,
+    82.5, -26,
+    93, -23.5,
+    115, -21,
+    121, -6,
+    121, 6,
+    115, 21,
+    92.5, 22.5,
+    84, 25.5,
+    83.5, 30.5,
+    74, 31.5,
+    68.5, 38.5,
+    -61, 37.5,
+    -65.5, 31.5,
+    -80.5, 28.5,
+    -80.5, 23,
+    -111.5, 21.5,
+    -113, 16,
+    -114, 5,
+    -119.5, 2.5
+  ]
+}

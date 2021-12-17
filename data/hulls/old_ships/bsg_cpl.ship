@@ -1,0 +1,67 @@
+{
+  "hullName": "Colonial Passenger Liner",
+  "hullId": "bsg_cpl",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/Colonial Fleet/bsg_colonial_passenger_liner.png",
+  "style": "HIGH_TECH",
+  "height": 255,
+  "width": 67,
+  "center": [33.5, 127.5],
+  "collisionRadius": 120.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 134,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [117, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-126, 10.5],
+      "length": 29,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-126, -10.5],
+      "length": 29,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    122, 9.5,
+    101, 15.5,
+    60.5, 18.5,
+    59, 24.5,
+    40.5, 19,
+    0, 19,
+    -74, 13.5,
+    -80, 20,
+    -105.5, 18.5,
+    -118, 34.5,
+    -127.5, 35,
+    -127.5, -35,
+    -118, -34.5,
+    -105.5, -18.5,
+    -80, -20,
+    -74, -13.5,
+    0, -19,
+    40.5, -19,
+    59, -24.5,
+    60.5, -18.5,
+    101, -15.5,
+    122, -9.5
+  ]
+}

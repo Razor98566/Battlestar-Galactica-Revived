@@ -1,0 +1,125 @@
+{
+  "hullName": "Gorgob",
+  "hullId": "bsg_gorgon",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/Cylon/cyl_gorgon.png",
+  "style": "LOW_TECH",
+  "height": 180,
+  "width": 337,
+  "center": [168.5, 90],
+  "collisionRadius": 178,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 177,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [45, 153.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -0,
+      "locations": [45, -153.5]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [83.5, -21.5]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [85, 18.5]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-9, -0.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-89, 32.5],
+      "length": 52,
+      "width": 18,
+      "angle": 180,
+      "contrailSize": 18,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-89, -32.5],
+      "length": 52,
+      "width": 18,
+      "angle": -180,
+      "contrailSize": 18,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-73.5, 6],
+      "length": 39.5,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-73.5, -6],
+      "length": 39.5,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -74.5, -24,
+    -89.5, -24.5,
+    -89.5, -38.5,
+    -73.5, -42.5,
+    -70, -58.5,
+    -63.5, -66.5,
+    17, -104,
+    29, -168,
+    53.5, -168.5,
+    76, -78.5,
+    89.5, -74.5,
+    89, -65,
+    80, -60.5,
+    87.5, -7,
+    87.5, 7,
+    80, 60.5,
+    89, 65,
+    89.5, 74.5,
+    76, 78.5,
+    53.5, 168.5,
+    29, 168,
+    17, 104,
+    -63.5, 66.5,
+    -70, 58.5,
+    -73.5, 42.5,
+    -89.5, 38.5,
+    -89.5, 24.5,
+    -74.5, 24
+  ]
+}

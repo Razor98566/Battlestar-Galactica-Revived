@@ -1,0 +1,309 @@
+{
+  "hullName": "Artemis",
+  "hullId": "bsg_artemis",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/Colonial Fleet/bsg_tosbattlestar.png",
+  "style": "HIGH_TECH",
+  "height": 865,
+  "width": 360,
+  "center": [180, 432.5],
+  "collisionRadius": 455.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 454,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0004": "HTW",
+    "WS0005": "ColPC"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 193,
+      "angle": 79.5,
+      "locations": [211, 104.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 193,
+      "angle": -79.5,
+      "locations": [211, -104.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 223,
+      "angle": -1,
+      "locations": [348, -1.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 162,
+      "angle": 0,
+      "locations": [92.5, 140]
+    },
+    {
+      "id": "WS0009",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 162,
+      "angle": -0,
+      "locations": [92.5, -140]
+    },
+    {
+      "id": "WS0010",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 112,
+      "angle": 180,
+      "locations": [-199.5, -140]
+    },
+    {
+      "id": "WS0011",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 112,
+      "angle": -180,
+      "locations": [-199.5, 140]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 162,
+      "angle": 90,
+      "locations": [34, 145.5]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 162,
+      "angle": -90,
+      "locations": [34, -145.5]
+    },
+    {
+      "id": "WS0014",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 162,
+      "angle": 90,
+      "locations": [-53, 145.5]
+    },
+    {
+      "id": "WS0015",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 162,
+      "angle": -90,
+      "locations": [-53, -145.5]
+    },
+    {
+      "id": "WS0016",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 162,
+      "angle": 90,
+      "locations": [-145, 145.5]
+    },
+    {
+      "id": "WS0017",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 162,
+      "angle": -90,
+      "locations": [-145, -145.5]
+    },
+    {
+      "id": "WS0018",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 141,
+      "angle": 180,
+      "locations": [-381, -51]
+    },
+    {
+      "id": "WS0019",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 141,
+      "angle": -180,
+      "locations": [-381, 51]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [140.5, 140]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [143, -138]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-266.5, -136.5]
+    },
+    {
+      "id": "LB 4",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-270.5, 142.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 0,
+      "locations": [-89.5, 1]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 62,
+      "angle": 0,
+      "locations": [15.5, 1]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-435, 72.5],
+      "length": 90.5,
+      "width": 53,
+      "angle": 180,
+      "contrailSize": 53,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-435, -72.5],
+      "length": 90.5,
+      "width": 53,
+      "angle": -180,
+      "contrailSize": 53,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-432, 23],
+      "length": 90.5,
+      "width": 53,
+      "angle": 180,
+      "contrailSize": 53,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-432, -23],
+      "length": 90.5,
+      "width": 53,
+      "angle": -180,
+      "contrailSize": 53,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -431.5, -99.5,
+    -427, -104.5,
+    -408, -104.5,
+    -401.5, -106,
+    -374.5, -106,
+    -369, -104,
+    -358.5, -103.5,
+    -351.5, -105.5,
+    -331.5, -107,
+    -269, -103,
+    -218.5, -72.5,
+    -215, -57.5,
+    -188.5, -57.5,
+    -188.5, -102,
+    -212, -100.5,
+    -280, -120,
+    -280, -157,
+    -206.5, -180,
+    109, -179.5,
+    151, -159,
+    150.5, -118.5,
+    110.5, -100,
+    65, -99,
+    65, -64.5,
+    81, -62.5,
+    140.5, -81.5,
+    167, -83.5,
+    173, -123,
+    243, -114.5,
+    310, -97.5,
+    377.5, -70.5,
+    431, -35.5,
+    430, 32.5,
+    376.5, 66.5,
+    315.5, 90.5,
+    249, 107.5,
+    173, 117,
+    166, 79,
+    152.5, 79.5,
+    74.5, 59,
+    61.5, 58.5,
+    60, 99,
+    110.5, 100,
+    150.5, 118.5,
+    151, 159,
+    109, 179.5,
+    -206.5, 180,
+    -277.5, 160.5,
+    -278, 118,
+    -205, 100,
+    -190, 100,
+    -189, 55,
+    -212, 57,
+    -217, 70,
+    -275, 99.5,
+    -324, 103,
+    -351, 103,
+    -360.5, 100,
+    -370.5, 100,
+    -377, 102,
+    -401, 103,
+    -413, 100,
+    -418.5, 100,
+    -431.5, 97.5
+  ]
+}

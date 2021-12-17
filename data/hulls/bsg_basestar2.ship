@@ -1,0 +1,271 @@
+{
+  "hullName": "Basestar Mark II",
+  "hullId": "bsg_basestar2",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/Cylon/bsg_cylonbasestarm2.png",
+  "style": "HIGH_TECH",
+  "height": 431,
+  "width": 229,
+  "center": [114.5, 215],
+  "collisionRadius": 217,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 217,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "Rear Large",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 180,
+      "locations": [-71, 0.5]
+    },
+    {
+      "id": "Rear Left Large",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 150,
+      "locations": [-60.5, 44.5]
+    },
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": -149,
+      "locations": [-52, -41.5]
+    },
+    {
+      "id": "Front Left Large",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 29.5,
+      "locations": [63.5, 46.5]
+    },
+    {
+      "id": "Front Right Large",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -29.5,
+      "locations": [65, -46.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 29.5,
+      "locations": [116.5, 78.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -29.5,
+      "locations": [120, -79.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 29.5,
+      "locations": [157, 100.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -29.5,
+      "locations": [162, -103]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": -149,
+      "locations": [-115, -76]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 149,
+      "locations": [-114.5, 76]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": -149,
+      "locations": [-164, -104]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 149,
+      "locations": [-164, 104.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [61, -0]
+    },
+    {
+      "id": "WS0011",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [130, 0.5]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [187.5, -0]
+    },
+    {
+      "id": "WS0013",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 180,
+      "locations": [-140.5, 1]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 180,
+      "locations": [-194.5, 1]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        32.5, -29.5,
+        28, 33,
+        -51.5, -0
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-53, 40]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [60.5, 1.5]
+    },
+    {
+      "id": "LB 4",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-48, -36.5]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -215.5, 2.5,
+    -165, 8.5,
+    -97.5, 13,
+    -54, 19.5,
+    -117.5, 66.5,
+    -177, 109,
+    -177, 113,
+    -175.5, 114,
+    -171, 113.5,
+    -138.5, 99,
+    -80, 69.5,
+    -29, 45.5,
+    2, 35,
+    21, 42.5,
+    93, 75,
+    141, 100,
+    176, 115,
+    178.5, 111,
+    142, 81.5,
+    100, 54,
+    55.5, 19.5,
+    88.5, 14.5,
+    150, 10,
+    195, 6,
+    216.5, 1.5,
+    216.5, -1.5,
+    195, -6,
+    150, -10,
+    88.5, -14.5,
+    55.5, -19.5,
+    100, -54,
+    142, -81.5,
+    179, -111,
+    176.5, -115,
+    141, -100,
+    93, -75,
+    22.5, -41,
+    3, -33,
+    -29, -45.5,
+    -80, -69.5,
+    -138.5, -99,
+    -171, -113.5,
+    -175.5, -114,
+    -177, -113,
+    -177, -109,
+    -128, -73,
+    -54, -19.5,
+    -97.5, -13,
+    -165, -8.5,
+    -215.5, -2.5
+  ]
+}

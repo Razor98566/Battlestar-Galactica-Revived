@@ -1,0 +1,76 @@
+{
+  "hullName": "Sparrow",
+  "hullId": "bsg_rm2",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/Cylon/bsg_raiderm2.png",
+  "style": "HIGH_TECH",
+  "height": 25,
+  "width": 16,
+  "center": [8, 10.5],
+  "collisionRadius": 15,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 15.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 8.2,
+      "angle": 0,
+      "locations": [-1, -2]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 8.2,
+      "angle": 0,
+      "locations": [-1, 2.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 8.2,
+      "angle": 0,
+      "locations": [-5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-8.5, 2],
+      "length": 20.5,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-8.5, -1],
+      "length": 20.5,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    14.5, -4,
+    6.5, -7.5,
+    -5.5, -7.5,
+    -10.5, -6,
+    -10.5, 6,
+    -5.5, 8,
+    6.5, 8,
+    14.5, 4.5,
+    14.5, 2,
+    2.5, 3.5,
+    1.5, -0,
+    2.5, -4,
+    14.5, -2
+  ]
+}

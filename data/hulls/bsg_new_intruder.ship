@@ -1,0 +1,148 @@
+{
+  "hullName": "Intruder",
+  "hullId": "bsg_intruder",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/Cylon/bsg_new_intruder.png",
+  "style": "MIDLINE",
+  "height": 181,
+  "width": 123,
+  "center": [62, 85.5],
+  "collisionRadius": 92.5,
+  "shieldCenter": [0, -0.5],
+  "shieldRadius": 93.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "Front 1",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 0,
+      "locations": [72, 18.5]
+    },
+    {
+      "id": "Front 2",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -0,
+      "locations": [72, -18.5]
+    },
+    {
+      "id": "Missile 6",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 304,
+      "angle": 33.5,
+      "locations": [29.5, 58]
+    },
+    {
+      "id": "Missile 4",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 304,
+      "angle": -33.5,
+      "locations": [30.5, -54]
+    },
+    {
+      "id": "Upper 4",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": -0,
+      "locations": [35, 27]
+    },
+    {
+      "id": "Upper 3",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": 0,
+      "locations": [36.5, -27]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [1441.5, -960]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [1441.5, -874.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [2, 8.5],
+      "length": 41.5,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [2, -8.5],
+      "length": 41.5,
+      "width": 15,
+      "angle": -180,
+      "contrailSize": 15,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    0.5, -17,
+    19.5, -17,
+    19.5, -22,
+    -13.5, -26.5,
+    -45.5, -28,
+    -72, -26,
+    -84.5, -29,
+    -84.5, -34.5,
+    -56.5, -48.5,
+    -30.5, -53,
+    -12.5, -54,
+    18.5, -53.5,
+    26.5, -62,
+    32, -62,
+    60.5, -56,
+    79.5, -37.5,
+    85.5, -22,
+    78.5, -22,
+    78.5, -13.5,
+    93, -9.5,
+    93, 9.5,
+    78.5, 13.5,
+    78.5, 22,
+    85.5, 22,
+    79.5, 37.5,
+    60.5, 56,
+    32, 62,
+    26.5, 62,
+    18.5, 53.5,
+    -12.5, 54,
+    -30.5, 53,
+    -56.5, 48.5,
+    -84.5, 34.5,
+    -84.5, 29,
+    -72, 26,
+    -45.5, 28,
+    -13.5, 26.5,
+    19.5, 22,
+    19.5, 17,
+    0.5, 17
+  ]
+}

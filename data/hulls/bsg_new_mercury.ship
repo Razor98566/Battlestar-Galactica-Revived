@@ -1,0 +1,332 @@
+{
+  "hullName": "Mercury Class",
+  "hullId": "bsg_mercury",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/Colonial Fleet/bsg_mercury.png",
+  "style": "MIDLINE",
+  "height": 447,
+  "width": 179,
+  "center": [89.5, 222],
+  "collisionRadius": 228,
+  "shieldCenter": [0, 2.5],
+  "shieldRadius": 230,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        8.5, 85.5,
+        81, 67
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        9.5, -86.5,
+        81.5, -66.5
+      ]
+    },
+    {
+      "id": "LB 3",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -109, 67.5,
+        -36, 84.5
+      ]
+    },
+    {
+      "id": "LB 4",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -112.5, -66.5,
+        -34, -86.5
+      ]
+    },
+    {
+      "id": "Front 3",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 53,
+      "angle": 0,
+      "locations": [222, 17]
+    },
+    {
+      "id": "Front 4",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 53,
+      "angle": -0,
+      "locations": [222, -17]
+    },
+    {
+      "id": "Flak 2",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 194,
+      "angle": 79,
+      "locations": [148.5, 38.5]
+    },
+    {
+      "id": "Flak 5",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 194,
+      "angle": -79,
+      "locations": [148.5, -38.5]
+    },
+    {
+      "id": "Front 5",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 53,
+      "angle": 0,
+      "locations": [188, -35.5]
+    },
+    {
+      "id": "Front 6",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 53,
+      "angle": -0,
+      "locations": [188, 35.5]
+    },
+    {
+      "id": "Front 10",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 53,
+      "angle": 0,
+      "locations": [83.5, -68]
+    },
+    {
+      "id": "Front 8",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 53,
+      "angle": -0,
+      "locations": [83.5, 68]
+    },
+    {
+      "id": "Rear 2",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 53,
+      "angle": 180,
+      "locations": [-129, -69]
+    },
+    {
+      "id": "Rear 3",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 53,
+      "angle": -180,
+      "locations": [-129, 69]
+    },
+    {
+      "id": "Flak 7",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 107,
+      "locations": [-105, 84.5]
+    },
+    {
+      "id": "Flak 14",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -107,
+      "locations": [-105, -84.5]
+    },
+    {
+      "id": "Flak 9",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-53, 88.5]
+    },
+    {
+      "id": "Flak 16",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-53, -88.5]
+    },
+    {
+      "id": "Flak 11",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [18.5, 89.5]
+    },
+    {
+      "id": "Flak 18",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [18.5, -89.5]
+    },
+    {
+      "id": "Flak 13",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 71.5,
+      "locations": [75, 85.5]
+    },
+    {
+      "id": "Flak 20",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -71.5,
+      "locations": [75, -85.5]
+    },
+    {
+      "id": "Missile 5",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [9.5, 22.5]
+    },
+    {
+      "id": "Missile 2",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [9.5, -22.5]
+    },
+    {
+      "id": "Missile 4",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [-38, 22]
+    },
+    {
+      "id": "Missile 1",
+      "size": "LARGE",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [-38, -22]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-222, 44],
+      "length": 38,
+      "width": 17,
+      "angle": 180,
+      "contrailSize": 17,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-222, -44],
+      "length": 38,
+      "width": 17,
+      "angle": -180,
+      "contrailSize": 17,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-222, 17.5],
+      "length": 38,
+      "width": 17,
+      "angle": 180,
+      "contrailSize": 17,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-222, -17.5],
+      "length": 38,
+      "width": 17,
+      "angle": -180,
+      "contrailSize": 17,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -212, -6,
+    -222, -6,
+    -222.5, -28,
+    -189, -33,
+    -223, -35.5,
+    -223, -52,
+    -198.5, -54.5,
+    -135, -54,
+    -135, -74.5,
+    -91.5, -89.5,
+    65, -89.5,
+    94.5, -79,
+    94.5, -52.5,
+    134, -52.5,
+    163, -46.5,
+    203, -33,
+    225.5, -21.5,
+    225.5, 21.5,
+    203, 33,
+    163, 46.5,
+    134, 52.5,
+    94.5, 52.5,
+    94.5, 79,
+    65, 89.5,
+    -91.5, 89.5,
+    -135, 74.5,
+    -135, 54,
+    -198.5, 54.5,
+    -223, 52,
+    -223, 35.5,
+    -189, 33,
+    -222.5, 28,
+    -222, 6,
+    -212, 6
+  ]
+}

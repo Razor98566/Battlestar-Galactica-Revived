@@ -1,0 +1,43 @@
+{
+  "hullName": "Resurrection Hub",
+  "hullId": "bsg_hub",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/Cylon/hub2.png",
+  "style": "HIGH_TECH",
+  "height": 532,
+  "width": 600,
+  "center": [297.5, 203.5],
+  "collisionRadius": 12.5,
+  "shieldCenter": [0, -1],
+  "shieldRadius": 14.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "axialrotation",
+    "supercomputer",
+    "stealth_minefield",
+    "stealth_minefield_lt",
+    "vastbulk"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0034",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 180,
+      "angle": 123.5,
+      "locations": [-2, 1]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -10.5, 5.5,
+    -3.5, 11.5,
+    5.5, 12.5,
+    11, 6.5,
+    11, -6.5,
+    5.5, -12.5,
+    -3.5, -11.5,
+    -10.5, -5.5
+  ]
+}

@@ -1,0 +1,9 @@
+id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,number
+bsg_vm1_wing,vm1_fighter,"fighter, low, rare_bp",0,,4,8,V,8000,500,,5,ASSAULT,Fighter,10,6500,,,,,,1
+bsg_vm2_wing,vm2_fighter,"fighter, low, rare_bp",0,,4,8,V,4000,500,,5,ASSAULT,Fighter,10,6500,,,,,,1
+bsg_vm7_wing,vm7_fighter,"fighter, low, rare_bp",0,,6,8,V,4000,500,,6,ASSAULT,Fighter,10,6500,,,,,,5
+bsg_rm2_wing,rm2_fighter,"fighter, high, rare_bp",0,,6,8,V,4000,500,,5,ASSAULT,Fighter,10,6500,,,,,,2
+bsg_rm1_tos_wing,rm1_tos_fighter,"fighter, low, rare_bp",0,,4,8,V,4000,500,,4,ASSAULT,Fighter,10,6500,,,,,,6
+bsg_rm1_wing,rm1_fighter,"fighter, low, rare_bp",0,,4,8,V,4000,500,,4,ASSAULT,Fighter,10,6500,,,,,,6
+bsg_hraider_wing,hraider_fighter,"fighter, high, rare_bp",0,,8,8,V,4000,500,,2,FIGHTER,Heavy Fighter,10,6500,,,,,,3
+bsg_raptor_wing,raptor_fighter,"fighter, low, rare_bp",0,,8,8,V,4000,500,,2,BOMBER,Bomber,10,6500,,,,,,4

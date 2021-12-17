@@ -1,0 +1,149 @@
+{
+  "hullName": "Janus",
+  "hullId": "bsg_janus",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/Colonial Fleet/col_janus.png",
+  "style": "HIGH_TECH",
+  "height": 300,
+  "width": 103,
+  "center": [52.5, 150],
+  "collisionRadius": 153.5,
+  "shieldCenter": [0, 1],
+  "shieldRadius": 156.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": 0,
+      "locations": [14, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": 0,
+      "locations": [107, 0.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": 0,
+      "locations": [92, 0.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": 0,
+      "locations": [78.5, 0.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": 0,
+      "locations": [64.5, 0.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": 0,
+      "locations": [-29, 13]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": -0,
+      "locations": [-29, -13]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-147.5, -46.5],
+      "length": 40,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-147.5, 46.5],
+      "length": 40,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-149, -23.5],
+      "length": 40,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-149, 23.5],
+      "length": 40,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -106.5, -6,
+    -149, -15,
+    -149.5, -35,
+    -148, -52,
+    -117.5, -52.5,
+    -85, -50.5,
+    -49, -41.5,
+    -49, -28,
+    -22.5, -28,
+    -16.5, -21,
+    -4, -21,
+    -2.5, -31.5,
+    52.5, -31.5,
+    112.5, -22,
+    150, -11,
+    149.5, -6,
+    113.5, -5,
+    113.5, 5,
+    149.5, 6,
+    150, 11,
+    112.5, 22,
+    52.5, 31.5,
+    -2.5, 31.5,
+    -4, 21,
+    -16.5, 21,
+    -22.5, 28,
+    -49, 28,
+    -49, 41.5,
+    -85, 50.5,
+    -117.5, 52.5,
+    -148, 52,
+    -149.5, 35,
+    -149, 15,
+    -106.5, 6
+  ]
+}
