@@ -1,0 +1,74 @@
+{
+  "hullName": "Taipan Heavy Fighter",
+  "hullId": "bsg_taipan",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/Colonial Fleet/col_taipan.png",
+  "style": "MIDLINE",
+  "height": 68,
+  "width": 38,
+  "center": [19, 34],
+  "collisionRadius": 35.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 35,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0001": "ColTai",
+    "WS0002": "ColTai"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 20,
+      "angle": 0,
+      "locations": [20, -7]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 20,
+      "angle": -0,
+      "locations": [20, 7]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-33, -9],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "COBRA_BOMBER"
+    },
+    {
+      "location": [-33, 9],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "COBRA_BOMBER"
+    }
+  ],
+  "bounds": [
+    -23.5, 5,
+    -35, 6,
+    -35, 11.5,
+    -23, 13,
+    -23, 19.5,
+    -8, 18,
+    2.5, 11.5,
+    34.5, 7.5,
+    34.5, -7.5,
+    2.5, -11.5,
+    -8, -18,
+    -23, -19.5,
+    -23, -13,
+    -35, -11.5,
+    -35, -6,
+    -23.5, -5
+  ]
+}

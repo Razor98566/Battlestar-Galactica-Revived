@@ -55,7 +55,8 @@
 			"bsg_manticore",
 			"bsg_minotaur",
 			"bsg_orion",
-			"bsg_ranger",	
+			"bsg_ranger",		
+			"bsg_taipan",	
 		],
 	},
 	"priorityShips":{
@@ -80,7 +81,8 @@
 			"bsg_manticore_variant",
 			"bsg_minotaur_variant",
 			"bsg_orion_variant",
-			"bsg_ranger_variant",
+			"bsg_ranger_variant",	
+			"bsg_taipan_variant",	
 		],
 	},
 	"knownFighters":{
@@ -273,6 +275,7 @@
 			"extraCrewPercent":[20, 30],
 			"marinesPercent":[5, 10],
 			"ships":{
+				"bsg_taipan_variant":[2, 4],
 				"bsg_defender_variant":[2, 4],
 				"bsg_cygnus_variant":[2, 4],
 				"bsg_valkyrie_variant":[1, 1],
@@ -305,6 +308,7 @@
 				"bsg_minotaur_variant":[2, 4],
 				"bsg_orion_variant":[0, 2],
 				"bsg_ranger_variant":[2, 4],
+				"bsg_taipan_variant":[0, 8],
 			},
 		},
 		"systemDefense":{
@@ -329,6 +333,7 @@
 				"bsg_minotaur_variant":[2, 4],
 				"bsg_orion_variant":[0, 2],
 				"bsg_ranger_variant":[2, 4],
+				"bsg_taipan_variant":[0, 4],
 			},
 		},
 		"supplyConvoy":{

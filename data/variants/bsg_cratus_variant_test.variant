@@ -1,0 +1,68 @@
+{
+  "variantId": "bsg_cratus_variant_test",
+  "hullId": "bsg_cratus",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0013": "CNML",
+        "WS0014": "CNML",
+        "WS0016": "CNML",
+        "WS0017": "CNML",
+        "WS0018": "CNML",
+        "WS0019": "CNML",
+        "WS0020": "CNML",
+        "WS0021": "CNML"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "CPC"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "bsg_rm1_wing",
+    "bsg_rm1_wing",
+    "bsg_rm1_wing",
+    "bsg_rm1_wing",
+    "bsg_rm2_wing",
+    "bsg_rm2_wing"
+  ]
+}

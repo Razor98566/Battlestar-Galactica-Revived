@@ -31,7 +31,9 @@
 		"bsg_cratus_variant":100,
 		"bsg_gorgon_variant":100,
 		"bsg_nemesis_variant":100,
-		"bsg_phobos_variant":100,
+		"bsg_phobos_variant":100,	
+		"bsg_taipan_variant":10,
+		"bsg_vespid_variant":10		
 		
 	},
 	"hullFrequency":{
@@ -67,7 +69,9 @@
 			"bsg_cratus":10,
 			"bsg_gorgon":10,
 			"bsg_nemesis":10,
-			"bsg_phobos":10,				
+			"bsg_phobos":10,	
+			"bsg_taipan":0,
+			"bsg_vespid":10						
 		},
 	},
 	"knownShips":{

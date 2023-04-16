@@ -1,0 +1,23 @@
+{
+  "variantId": "bsg_taipan_variant",
+  "hullId": "bsg_taipan",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "ColTai",
+        "WS0002": "ColTai"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

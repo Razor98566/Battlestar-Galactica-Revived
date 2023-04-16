@@ -1,0 +1,27 @@
+{
+  "variantId": "bsg_vespid_variant",
+  "hullId": "bsg_vespid",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "CylVes",
+        "WS0002": "CylVes",
+        "WS0003": "CylVes",
+        "WS0004": "CylVes",
+        "WS0005": "CylVes",
+        "WS0006": "CylVes"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

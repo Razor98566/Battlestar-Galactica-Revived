@@ -5,17 +5,18 @@ Cylon Fighter Laser Gun,CFLG,3,,200,500,,25,,0,60,12,,,,ENERGY,0,,0.5,1,1,0.33,0
 Colonial Fighter Warhead,FSCW,3,,200,400,,100,,0,20,10,,,,HIGH_EXPLOSIVE,0,,0,5,1,,0,0,0,0,,400,400,14,25,DO_NOT_CONSERVE,bsg_fighter,,,,General,,,,,,,,,,28
 Colonial Fighter Machine Gun,FSMG,3,,200,500,,25,,0,60,12,,,,KINETIC,0,,0,1,1,0.33,0,10,2,10,,800,,,5,DO_NOT_CONSERVE,bsg_fighter,,,,General,,,,,,,,,,27
 Colonial Fighter Laser Gun,FLG,3,,200,500,,25,,0,60,12,,,,ENERGY,0,,0,1,1,0.33,0,10,2,10,,800,,,5,DO_NOT_CONSERVE,bsg_fighter,,,,General,,,,,,,,,,41
+Cylon Nuclear MIRV Launcher,CNML,3,,50000,3000,,1000,,0,5,50,5,,,HIGH_EXPLOSIVE,450,,0,10,1,,0,0,0,0,,200,50,40,3000,"DO_NOT_AIM, CONSERVE_5, STRIKE, USE_VS_FRIGATES","missile18, strike15",,,,General,,,,,,,,,,45
 Cylon Warhead Large,PCSCML,3,,8000,1500,,1000,,0,10,20,100,,,HIGH_EXPLOSIVE,0,,0,10,1,,0,0,0,0,,600,600,14,250,"STRIKE, USE_VS_FRIGATES",,,,,General,,,,,,,,,,20
 Cylon Warhead Medium,PCSCMM,3,,4000,1500,,600,,0,25,10,100,,,HIGH_EXPLOSIVE,0,,0,5,1,,0,0,0,0,,600,600,14,200,"STRIKE, USE_VS_FRIGATES",,,,,General,,,,,,,,,,19
 Cylon Warhead Small,PCSCMS,3,,1800,750,,100,,0,40,5,100,,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,0,,900,900,3,150,"PD_ONLY,ANTI_FTR, DO_NOT_CONSERVE",,,,,General,,,,,,,,,,18
 Cylon Machine Gun Large,PCSDRGL,3,,8000,1200,,300,,0,10,20,,,,KINETIC,120,,0,3,4,0.1,0,10,3,9,,800,,,20,"STRIKE, USE_VS_FRIGATES",,,,,General,,,,,,,,,,14
 Cylon Machine Gun Medium,PCSDRGM,3,,4000,1000,,150,,0,25,10,,,,KINETIC,80,,0,2,4,0.1,0,5,3,9,,800,,,20,"STRIKE, USE_VS_FRIGATES",,,,,General,,,,,,,,,,15
 Cylon Machine Gun Small,PCSDRGS,3,,2500,800,,100,,0,40,5,,,,KINETIC,20,,0,1,4,0.1,0,2,1,4,,800,,,20,"PD,ANTI_FTR, DO_NOT_CONSERVE, STRIKE, USE_VS_FRIGATES",,,,,Anti Small Craft,,,,,,,,,,16
-Cylon Pulsar Cannon,CPC,3,,80000,2000,,6000,,100,5,50,,,,ENERGY,800,,20,40,1,,0,0,0,0,,1000,,,20,"STRIKE, USE_VS_FRIGATES",bsg_superweapon,,,,General,,,,,,,,,,37
+Cylon Pulsar Cannon,CPC,3,,80000,2000,,6000,,100,5,50,,,,ENERGY,800,,10,20,1,,0,0,0,0,,1000,,,20,"STRIKE, USE_VS_FRIGATES",bsg_superweapon,,,,General,,,,,,,,,,37
 Cylon Laser Turret Large,CLTL,3,,8000,1200,,350,,70,10,20,,,,ENERGY,120,,0.2,3,2,0.1,0,5,3,4,,800,,,20,"STRIKE, USE_VS_FRIGATES",,,,,General,,,,,,,,,,31
 Cylon Laser Turret Medium,CLTM,3,,4000,1000,,200,,60,25,10,,,,ENERGY,80,,0.2,2,2,0.1,0,2,3,4,,800,,,20,"STRIKE, USE_VS_FRIGATES",,,,,General,,,,,,,,,,32
 Cylon Laser Turret Small,CLTS,3,,2500,800,,100,,50,40,5,,,,ENERGY,20,,0.2,1,2,0.1,0,1,1,4,,800,,,20,"STRIKE, USE_VS_FRIGATES, PD, ANTI_FTR",,,,,Anti Small Craft,,,,,,,,,,33
-Colonial Pulsar Cannon,ColPC,3,,80000,2000,,6000,,100,5,50,,,,ENERGY,800,,20,40,1,,0,0,0,0,,1000,,,20,"STRIKE, USE_VS_FRIGATES",bsg_superweapon,,,,General,,,,,,,,,,39
+Colonial Pulsar Cannon,ColPC,3,,80000,2000,,6000,,100,5,50,,,,ENERGY,800,,10,20,1,,0,0,0,0,,1000,,,20,"STRIKE, USE_VS_FRIGATES",bsg_superweapon,,,,General,,,,,,,,,,39
 Colonial Laser Turret Large,CoLTL,3,,8000,1200,,350,,70,10,20,,,,ENERGY,120,,0.2,3,2,0.1,0,5,3,4,,800,,,20,"STRIKE, USE_VS_FRIGATES",,,,,General,,,,,,,,,,34
 Colonial Laser Turret Medium,CoLTM,3,,4000,1000,,200,,60,25,10,,,,ENERGY,80,,0.2,2,2,0.1,0,2,3,4,,800,,,20,"STRIKE, USE_VS_FRIGATES",,,,,General,,,,,,,,,,35
 Colonial Laser Turret Small,CoLTS,3,,2500,800,,100,,50,40,5,,,,ENERGY,20,,0.2,1,2,0.1,0,1,1,4,,800,,,20,"STRIKE, USE_VS_FRIGATES, PD, ANTI_FTR",,,,,Anti Small Craft,,,,,,,,,,36
@@ -23,9 +24,12 @@ Colonial Warhead Large,SCSCML,3,,16000,1500,,800,,0,10,20,100,,,HIGH_EXPLOSIVE,0
 Colonial Warhead Medium,SCSCMM,3,,8000,1500,,400,,0,25,10,100,,,HIGH_EXPLOSIVE,0,,0,5,1,,0,0,0,0,,600,600,14,200,"STRIKE, USE_VS_FRIGATES",,,,,General,,,,,,,,,,22
 Colonial Warhead Small,SCSCMS,3,,4000,1500,,200,,0,40,5,100,,,HIGH_EXPLOSIVE,0,,0,3,1,,0,0,0,0,,600,600,14,150,"STRIKE, USE_VS_FRIGATES",,,,,General,,,,,,,,,,21
 Dual Point Defense Cannons,SCSDPD,3,,200,300,,200,,0,60,5,,,,FRAGMENTATION,1,,0,0.4,2,0.2,15,50,3,9,,800,,,20,"PD_ONLY,ANTI_FTR, DO_NOT_CONSERVE",,,,,General,,,,,,,,,,25
+Colonial Siege Artillery,SCSSA,3,,10000,2700,,1000,,90,8,30,,,,KINETIC,350,,0.4,4,2,0.4,0,10,2,9,,700,,,20,"DO_NOT_CONSERVE, STRIKE, USE_VS_FRIGATES",,,,,General,,,,,,,,,,44
 Colonial Railgun Large,SCSDRGL,3,,5000,1200,,500,,0,10,20,,,,KINETIC,200,,0.2,3,1,0.4,0,10,6,9,,800,,,20,"DO_NOT_CONSERVE, STRIKE, USE_VS_FRIGATES",,,,,General,,,,,,,,,,11
 Colonial Railgun Medium,SCSDRGM,3,,2500,1000,,350,,0,20,10,,,,KINETIC,150,,0.2,2,1,0.4,0,5,3,9,,800,,,20,"DO_NOT_CONSERVE, STRIKE, USE_VS_FRIGATES",,,,,General,,,,,,,,,,12
 Colonial Railgun Small,SCSDRGS,3,,1250,800,,200,,0,30,5,,,,KINETIC,50,,0.2,1,1,0.3,0,2,1,9,,800,,,20,"DO_NOT_CONSERVE, STRIKE, USE_VS_FRIGATES",,,,,General,,,,,,,,,,13
 Heavy Tylium Warhead,HTW,3,,66600,3000,,10000,,0,5,50,3,,,HIGH_EXPLOSIVE,450,,20,40,1,,0,0,0,0,,200,300,40,3000,"STRIKE, USE_VS_FRIGATES",,,,,General,,,,,,,,,,38
 Colonial Autocannon,COLA,3,,2500,1000,,280,,0,20,10,,,,KINETIC,20,,0,0.9,1,0.4,0,5,3,9,,950,,,20,"DO_NOT_CONSERVE, STRIKE, USE_VS_FRIGATES, ANTI_FTR, PD",,,,,General,,,,,,,,,,42
 Cylon Autocannon,CYLA,3,,2500,1000,,280,,0,20,10,,,,KINETIC,20,,0,0.9,1,0.4,0,5,3,9,,950,,,20,"DO_NOT_CONSERVE, STRIKE, USE_VS_FRIGATES, ANTI_FTR, PD",,,,,General,,,,,,,,,,43
+Colonial Taipan Cannon,ColTai,3,,2500,1000,,300,,0,40,0,,,,KINETIC,0,,0,0,10,0.2,0,5,1,2,,1000,,,20,"DO_NOT_CONSERVE, STRIKE, USE_VS_FRIGATES",bsg_fighter,,,,General,,,,,,,,,,46
+Cylon Vespid Rockets,CylVes,3,,2500,1000,,300,,100,40,0,,,,HIGH_EXPLOSIVE,0,,0,5,8,0.2,0,0,0,0,,1000,1000,5,200,"DO_NOT_CONSERVE, STRIKE, USE_VS_FRIGATES",bsg_fighter,,,,General,,,,,,,,,,47

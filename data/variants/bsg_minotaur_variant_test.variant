@@ -1,0 +1,62 @@
+{
+  "variantId": "bsg_minotaur_variant_test",
+  "hullId": "bsg_minotaur",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0011": "COLA",
+        "WS0013": "COLA",
+        "WS0014": "COLA"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "COLA",
+        "WS0005": "COLA",
+        "WS0007": "COLA",
+        "WS0009": "COLA",
+        "WS0012": "COLA",
+        "WS0016": "COLA"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0004": "COLA",
+        "WS0006": "COLA",
+        "WS0008": "COLA",
+        "WS0010": "COLA",
+        "WS0015": "COLA",
+        "WS0017": "COLA"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "SCSSA"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "SCSSA"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}
