@@ -1,0 +1,13 @@
+{
+    "masterVersionFile":"https://raw.githubusercontent.com/Razor98566/Battlestar-Galactica-Revived/master/versionchecker.version",
+    "modName":"Battlestar Galactica Revived",
+    "modThreadId":17721,
+    # For example: https://www.nexusmods.com/starsector/mods/3 has a modNexusId of 3
+    #"modNexusId":,
+    "modVersion":
+    {
+        "major":0,
+        "minor":9,
+        "patch":5
+    }
+}
