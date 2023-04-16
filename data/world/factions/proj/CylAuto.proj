@@ -1,0 +1,18 @@
+{
+	"id":"CylAuto_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":30.0,
+	"hitGlowRadius":12,
+	"width":6.0,
+	"fadeTime":0.2,
+	"fringeColor":[70, 80, 255,255],
+	"coreColor":[7, 70, 255,255],
+	"glowColor":[70,80,255,255],
+	"glowRadius":25,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/shell_medium.png"
+}

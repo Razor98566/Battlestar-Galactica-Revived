@@ -1,0 +1,50 @@
+{
+  "animationType": "MUZZLE_FLASH",
+  "barrelMode": "ALTERNATING",
+  "fireSoundTwo": "bsg_MachineGunCyl",
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    2,
+    -1,
+    2,
+    1
+  ],
+  "hardpointSprite": "graphics/weapons/cyl_mgs.png",
+  "id": "PCSDRGS",
+  "muzzleFlashSpec": {
+    "length": 25,
+    "particleColor": [
+      165,
+      225,
+      185,
+      175
+    ],
+    "particleSizeMin": 15,
+    "particleSizeRange": 25,
+    "particleDuration": 0.2,
+    "particleCount": 20,
+    "spread": 10
+  },
+  "projectileSpecId": "DRGM2s_shot",
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "size": "SMALL",
+  "specClass": "projectile",
+  "textureType": ROUGH,
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "turretOffsets": [
+    17.5,
+    -3.5,
+    17.5,
+    2.5
+  ],
+  "turretSprite": "graphics/weapons/cyl_mgs.png",
+  "type": "BALLISTIC"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "SCSSA",
+  "specClass": "projectile",
+  "projectileSpecId": "CSA_shot",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "turretSprite": "graphics/weapons/CSA.png",
+  "turretGunSprite": "graphics/weapons/CSA_recoil.png",
+  "hardpointSprite": "",
+  "glowColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "visualRecoil": 6,
+  "turretOffsets": [
+    43,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    -10,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "muzzleFlashSpec": {
+    "length": 30,
+    "spread": 50,
+    "particleSizeMin": 10,
+    "particleSizeRange": 20,
+    "particleDuration": 2,
+    "particleCount": 10,
+    "particleColor": [
+      255,
+      255,
+      255,
+      255
+    ]
+  },
+  "fireSoundTwo": "bsg_artillery"
+}

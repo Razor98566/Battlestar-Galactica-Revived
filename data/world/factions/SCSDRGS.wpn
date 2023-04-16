@@ -1,0 +1,54 @@
+{
+  "id": "SCSDRGS",
+  "specClass": "projectile",
+  "projectileSpecId": "DRGM1s_shot",
+  "type": "BALLISTIC",
+  "size": "SMALL",
+  "turretSprite": "graphics/weapons/scsdrgs.png",
+  "turretGunSprite": "graphics/weapons/scsdrgs_recoil.png",
+  "hardpointSprite": "graphics/weapons/scsdrgs.png",
+  "hardpointGunSprite": "graphics/weapons/scsdrgs_recoil.png",
+  "renderAboveAllWeapons": 0,
+  "visualRecoil": 5,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    12,
+    -7,
+    12,
+    7
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    12,
+    -7,
+    12,
+    7
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 25,
+    "spread": 10,
+    "particleSizeMin": 15,
+    "particleSizeRange": 25,
+    "particleDuration": 0.2,
+    "particleCount": 20,
+    "particleColor": [
+      165,
+      225,
+      185,
+      175
+    ]
+  },
+  "textureType": ROUGH,
+  "fireSoundTwo": "bsg_artillery"
+}

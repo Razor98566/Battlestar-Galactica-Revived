@@ -1,0 +1,28 @@
+{
+  "id": "ColTai",
+  "specClass": "projectile",
+  "projectileSpecId": "ColAuto_shot",
+  "type": "BALLISTIC",
+  "size": "SMALL",
+  "turretSprite": "graphics/weapons/FSMG.png",
+  "hardpointSprite": "",
+  "turretOffsets": [
+    4,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "NONE",
+  "interruptibleBurst": true,
+  "autocharge": true,
+  "fireSoundTwo": "bsg_colAuto"
+}

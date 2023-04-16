@@ -1,0 +1,46 @@
+{
+  "id": "CNML",
+  "specClass": "projectile",
+  "projectileSpecId": "CylMIRV",
+  "type": "MISSILE",
+  "size": "LARGE",
+  "turretSprite": "graphics/weapons/Cyl_MIRV.png",
+  "hardpointSprite": "",
+  "glowColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "turretOffsets": [
+    12.5,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "muzzleFlashSpec": {
+    "length": 60,
+    "spread": 40,
+    "particleSizeMin": 20,
+    "particleSizeRange": 20,
+    "particleDuration": 3,
+    "particleCount": 30,
+    "particleColor": [
+      255,
+      255,
+      255,
+      255
+    ]
+  },
+  "fireSoundTwo": "bsg_missileCyl"
+}

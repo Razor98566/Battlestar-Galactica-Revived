@@ -1,0 +1,18 @@
+{
+	"id":"CSA_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":90.0,
+	"hitGlowRadius":60,
+	"width":15.0,
+	"fadeTime":0.5,
+	"fringeColor":[255,77,50,255],
+	"coreColor":[235,130,0,255],
+	"glowColor":[255,100,50,70],
+	"glowRadius":40,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"bulletSprite":"graphics/missiles/shell_medium.png"
+}
