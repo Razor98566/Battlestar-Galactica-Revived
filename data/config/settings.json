@@ -1,0 +1,9 @@
+{	
+	"graphics":{
+		"characters":{
+			"kendra_shaw":"graphics/portraits/Kendra_Shaw.png",
+			"leoben_commander":"graphics/portraits/Leoben_Commander.png",
+			"AXB127":"graphics/portraits/AXB127.png",
+		},
+	}
+}

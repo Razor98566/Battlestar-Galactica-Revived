@@ -29,7 +29,7 @@ public class Cylonia {
                 2f); // cr loss mult
         system.setLightColor(new Color(255, 210, 200)); // light color in entire system, affects all entities
 
-        PlanetAPI a1 = system.addPlanet("cylonia", star, "Cylonia", "terran", 50, 150, 5000, 100);
+        PlanetAPI a1 = system.addPlanet("cylonia", star, "Cylonia", "terran", 50, 150, 4500, 100);
         a1.getSpec().setGlowTexture(Global.getSettings().getSpriteName("hab_glows", "sindria"));
         a1.getSpec().setGlowColor(new Color(255,255,255,255));
         a1.getSpec().setUseReverseLightForGlow(true);
@@ -45,7 +45,7 @@ public class Cylonia {
         jumpPoint1.setCircularOrbit( system.getEntityById("cylonia"), 60, 3000, 100);
         system.addEntity(jumpPoint1);
 
-        PlanetAPI a2 = system.addPlanet("marathon", star, "Marathon", "desert1", 90, 200, 2500, 225);
+        PlanetAPI a2 = system.addPlanet("marathon", star, "Marathon", "desert1", 90, 200, 1500, 225);
         a2.getSpec().setGlowTexture(Global.getSettings().getSpriteName("hab_glows", "sindria"));
         a2.getSpec().setGlowColor(new Color(255,255,255,255));
         a2.getSpec().setUseReverseLightForGlow(true);
@@ -59,7 +59,7 @@ public class Cylonia {
 					 "bsg_cylons"); // faction
 			relay.setCircularOrbitPointingDown(system.getEntityById("marathon"), 245-60, 4500, 200);
 
-        PlanetAPI a3 = system.addPlanet("lachesis", star, "Lachesis", "frozen", 180, 125, 1500, 150);
+        PlanetAPI a3 = system.addPlanet("lachesis", star, "Lachesis", "frozen", 180, 125, 6000, 150);
         a3.getSpec().setGlowTexture(Global.getSettings().getSpriteName("hab_glows", "sindria"));
         a3.getSpec().setGlowColor(new Color(255,255,255,255));
         a3.getSpec().setUseReverseLightForGlow(true);
@@ -67,7 +67,7 @@ public class Cylonia {
         a3.setInteractionImage("illustrations", "urban01");
         a3.setFaction("bsg_cylons");
 
-        PlanetAPI a4 = system.addPlanet("erebus", star, "Erebus", "jungle", 250, 170, 6000, 365);
+        PlanetAPI a4 = system.addPlanet("erebus", star, "Erebus", "jungle", 250, 170, 4000, 365);
         a4.getSpec().setGlowTexture(Global.getSettings().getSpriteName("hab_glows", "sindria"));
         a4.getSpec().setGlowColor(new Color(255,255,255,255));
         a4.getSpec().setUseReverseLightForGlow(true);

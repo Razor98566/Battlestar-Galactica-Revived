@@ -36,7 +36,7 @@ public class BSGen implements SectorGeneratorPlugin {
 
 	public void generate(SectorAPI sector) {
 		boolean haveNexerelin = Global.getSettings().getModManager().isModEnabled("nexerelin");
-		if (!haveNexerelin || SectorManager.getCorvusMode())
+		if (!haveNexerelin || !Global.getSector().getMemoryWithoutUpdate().getBoolean("$nex_randomSector"))
 			new Cylonia().generate(Global.getSector());
 			new NewCaprica().generate(Global.getSector());
 

@@ -10,12 +10,9 @@ import com.fs.starfarer.api.campaign.PlanetAPI;
 import com.fs.starfarer.api.campaign.SectorAPI;
 import com.fs.starfarer.api.campaign.SectorEntityToken;
 import com.fs.starfarer.api.campaign.StarSystemAPI;
-import com.fs.starfarer.api.impl.campaign.ids.Factions;
 import com.fs.starfarer.api.impl.campaign.ids.StarTypes;
-import com.fs.starfarer.api.impl.campaign.ids.Terrain;
 import com.fs.starfarer.api.impl.campaign.procgen.StarAge;
 import com.fs.starfarer.api.impl.campaign.procgen.StarSystemGenerator;
-import com.fs.starfarer.api.impl.campaign.terrain.AsteroidFieldTerrainPlugin.AsteroidFieldParams;
 import com.fs.starfarer.api.impl.campaign.terrain.HyperspaceTerrainPlugin;
 import com.fs.starfarer.api.impl.campaign.procgen.NebulaEditor;
 import com.fs.starfarer.api.util.Misc;
@@ -33,7 +30,7 @@ public class NewCaprica {
 
 
         PlanetAPI star = system.initStar("Helios Alpha", // unique id for this star
-                StarTypes.RED_GIANT, // id in planets.json
+                StarTypes.ORANGE_GIANT, // id in planets.json
                 500f,		// radius (in pixels at default zoom)
                 150, // corona radius, from star edge
                 5f, // solar wind burn level

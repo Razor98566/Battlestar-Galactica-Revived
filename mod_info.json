@@ -1,7 +1,7 @@
 {
 	"id":"Battlestar Galactica Revived", # internal id
 	"name":"BSG: Revived", # displayed to the player
-	"version":"0.9.6",
+	"version":"0.9.7",
 	"description":"This mod is based on 2004 adaptation of Battlestar Galactica Written by Kenneth Chisholm. When an old enemy, the Cylons, resurface and obliterate the 12 colonies, the crew of the aged Galactica protects a small civilian fleet - the last of humanity - as they journey toward the fabled 13th colony of Earth.",
 	"gameVersion":"0.96a",
  "author":"Razor98566, thanks to 'TysonMcnuggets' for updating the source mod to be usable again and to 'Spiketail118' for creating the inital mod."
