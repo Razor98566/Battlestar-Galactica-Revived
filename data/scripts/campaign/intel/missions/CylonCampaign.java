@@ -33,7 +33,7 @@ public class CylonCampaign extends HubMissionWithBarEvent implements FleetEventL
         HUNT_FIND_CLUE,
         HUNT_KILL_FLEET,
         HUNT_COMPLETED,
-        HUNT_FAILED,
+        HUNT_FAILED
     }
 
     // important objects, systems and people
