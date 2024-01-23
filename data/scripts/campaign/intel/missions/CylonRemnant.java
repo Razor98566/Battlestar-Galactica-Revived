@@ -32,7 +32,7 @@ public class CylonRemnant extends HubMissionWithBarEvent implements FleetEventLi
             FIND_WRECK,
             KILL_FLEET,
             COMPLETED,
-            FAILED,
+            FAILED
         }
 
         // important objects, systems and people

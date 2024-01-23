@@ -1,0 +1,98 @@
+id,trigger,conditions,script,text,options,notes
+#RULESET_NAME BSG:R,,,,,,
+,,,,,,
+# COLONIAL HUNT,,,,,,
+bsg_col_huntBlurb,bsg_col_hunt_blurb,,,"""We've had a little problem with a Cylon fleet that's gone rogue in a system near us that needs to be eliminated ASAP. We really need that system as our sensors have picked up a large deposit of Tylium there and considering how rare that resource in this sector is we could really use your help Captain!""",,
+bsg_col_huntOption,bsg_col_hunt_option,,,,bsg_col_hunt_start:Ask about making arrangements with the colonial admiral,
+bsg_col_huntBlurbBar,bsg_col_hunt_blurbBar,,,"A Colonial Admiral sits alone at a table, quietly drinking Ambrosia and looking displeased about whatever's on their Tri-Pad.",,
+bsg_col_huntOptionBar,bsg_col_hunt_optionBar,,,,bsg_col_hunt_startBar:See what the ambrosia-drinking Admiral is annoyed about,
+bsg_col_huntOfferTextContact,DialogOptionSelected,$option == bsg_col_hunt_start,$missionId = bsg_col_hunt,"""The target in question is a gone rogue Cylon Commander. Pretty sure it's a Nr. 2 or as we call him ""Leoben Conoy"". I'm sure you're well aware of the trouble these toasters have caused,"" $heOrShe explains. ""I have orders to ensure this Nr. 2 is 'dealt with', and I'd rather not inconvenience myself by risking my own fleet. You know how it is, ships are rare these days...""
+
+""Their last known location was the $bsg_col_hunt_SystemName, $bsg_col_hunt_dist light-years away from here. You should start your search there. I haven't been provided intel on the target's composition but it's safe to assume that their force is no joke. Accordingly, I've arranged a payment of $bsg_col_hunt_reward credits.""","contact_accept:Accept
+contact_decline:Decline",
+bsg_col_huntOfferTextBar,DialogOptionSelected,$option == bsg_col_hunt_startBar,$missionId = bsg_col_hunt,"As you take a seat by the Colonial Admiral, $heOrShe briefly scans you over like a biometrics system, before returning $hisOrHer eyes to the Tri-Pad. ""Judging by what you just did, I'd imagine you're a captain with an eye for potential work. You'd do an excellent job in the Colonial Navy.""
+
+$HeOrShe takes a sip. ""Obviously that's not what your here for, and not what I need. You are a predator."" $heOrShe declares. ""I have prey.""",bsg_col_hunt_startBar2:Continue,
+bsg_col_huntOfferTextBar2,DialogOptionSelected,$option == bsg_col_hunt_startBar2,SetTextHighlights  $bsg_col_hunt_systemName $bsg_col_hunt_dist $bsg_col_hunt_reward ,"""The toaster in question is $bsg_col_hunt_execName, a gone rogue humanoid Cylon. A Nr. 2 or as we like to call them a ""Leoben"". I'm sure you're well aware of the trouble they caused,"" $heOrShe explains, waving $hisOrHer hand. ""I have orders to ensure this toaster is 'dealt with', and I'd rather not inconvenience myself by risking my own fleet. You know how it is."" $HeOrShe gives you a look that implies you're expected to agree.
+
+""$bsg_col_hunt_execName's last known location was the $bsg_col_hunt_systemName, $bsg_col_hunt_dist light-years away from here. You should start your search there. I haven't been provided intel on the target's composition, so you're going in blind but assume that they're well armed. Accordingly, I've arranged a payment of $bsg_col_hunt_reward credits.""
+
+$HeOrShe places the Tri-Pad face-down on the table, and gives you $hisOrHer full attention for the first time. ""What about it, then? If you can get this done, it'd make an excellent first impression.""","contact_acceptBar:Accept
+contact_declineBarNoContinue:Decline",
+,,,,,,
+bsg_col_huntFoundClueShip,ShowSalvageEntityDetails,"$bsg_col_hunt_clue score:100
+$customType == wreck
+Call $bsg_col_hunt_ref updateData","$global.bsg_col_hunt_foundclue = true
+Call $global.bsg_col_hunt_ref updateStage
+Call $global.bsg_col_hunt_ref unsetClues","Though obviously stripped for supplies and materials, a scant few signals can still be detected from the derelict ship's dying systems. It could not have been abandoned too long ago.
+
+A salvage crew is dispatched, and manage to extract partial fleet logs from a functioning server that record inter-fleet communications discussing a stop in the $bsg_col_hunt_system2Name. $bsg_col_hunt_execName's fleet should be there.",,
+bsg_col_huntFoundClueCache,ShowSalvageEntityDetails,"$bsg_col_hunt_clue score:100
+$customType == supply_cache
+Call $bsg_col_hunt_ref updateData","$global.bsg_col_hunt_foundclue = true
+Call $global.bsg_col_hunt_ref updateStage
+Call $global.bsg_col_hunt_ref unsetClues","Barely weathered by the usual radiation and impacts of microscopic particles that pose a hazard to exposed cargo pods, it's obvious this supply cache has not been left here for long.
+
+Quick scans manage to pick up a fading signal from one in particular, and once broken open, a Tri-Pad found inside soon yields a fleetwide memo received by $bsg_col_hunt_execName's captains, ordering a stop in the $bsg_col_hunt_system2Name.",,
+,,,,,,
+bsg_col_hunt_fleetOpen,OpenCommLink,$entity.bsg_col_hunt_execfleet score:100,$entity.ignorePlayerCommRequests = true,"$personName frowns. ""These damn Colonials didn't even send a fleet of their own.""
+
+$HeOrShe sighs. ""Tell them God will one day punish their sins, you humans are like a cancer that needs to be removed  I have seen it, I see the patterns as I stand on the shore watching you pesky little humans try to swim against the downstream current.""",cutCommLink:Cut the comm link,
+#END COLONIAL HUNT,,,,,,
+,,,,,,
+# CYLON HUNT,,,,,,
+bsg_cyl_huntBlurb,bsg_cyl_hunt_blurb,,,"""We've had a little problem with a Colonial fleet that's been sabotaging us in a system near us that needs to be eliminated ASAP. We need to eliminate that Fleet as the Commander is a survivor of the Fall of the Twelve Colonies and thus is especially effective in guerrilla warfare, which is really crippling our efforts of killing all humans!""",,
+bsg_cyl_huntOption,bsg_cyl_hunt_option,$global.bsg_cyl_hunt_completed == false,,,bsg_cyl_hunt_start:Ask about making arrangements with the humanoid Cylon,
+bsg_cyl_huntBlurbBar,bsg_cyl_hunt_blurbBar,,,"A humanoid Cylon sits alone at a table, quietly projecting a river, probably trying to swim in the flow of life or something.",,
+bsg_cyl_huntOptionBar,bsg_cyl_hunt_optionBar,$global.bsg_cyl_hunt_completed == false,,,bsg_cyl_hunt_startBar:See what the projecting Cylon is annoyed about,
+bsg_cyl_huntOfferTextContact,DialogOptionSelected,$option == bsg_cyl_hunt_start,$missionId = bsg_cyl_hunt,"""The target in question is a surviving Colonial commander. Pretty sure she's called Kendra Shaw, served on the Pegasus. I'm sure you're well aware of the trouble she's caused during the Fall,"" $heOrShe explains. ""I have orders to ensure she's 'dealt with', and I'd rather not inconvenience myself by risking my own fleet. You know how it is, our CNP does not work on unnetworked ships.""
+
+""Their last known location was the $bsg_cyl_hunt_SystemName, $bsg_cyl_hunt_dist light-years away from here. You should start your search there. I haven't been provided intel on the target's composition but it's safe to assume that their force is no joke. Accordingly, I've arranged a payment of $bsg_cyl_hunt_reward credits.""","contact_accept:Accept
+contact_decline:Decline",
+bsg_cyl_huntOfferTextBar,DialogOptionSelected,$option == bsg_cyl_hunt_startBar,$missionId = bsg_cyl_hunt,"As you take a seat by the Cylon, $heOrShe briefly scans you over like a biometrics system, before returning $hisOrHer eyes to the Tri-Pad. ""Judging by what you just did, I'd imagine you hate your own kind to good degree. You'd do an excellent job in the Cylon Navy (if you weren't one of our targets).""
+
+$HeOrShe takes a sip. ""Obviously that's not what your here for, and not what I need. You are a predator."" $heOrShe declares. ""I have prey.""",bsg_cyl_hunt_startBar2:Continue,
+bsg_cyl_huntOfferTextBar2,DialogOptionSelected,$option == bsg_cyl_hunt_startBar2,SetTextHighlights  $bsg_cyl_hunt_systemName $bsg_cyl_hunt_dist $bsg_cyl_hunt_reward ,"""The meatbag in question is $bsg_cyl_hunt_execName, a second War veteran. I'm sure you're well aware of the trouble she's caused,"" $heOrShe explains, waving $hisOrHer hand. ""I have orders to ensure this woman is 'dealt with', and I'd rather not inconvenience myself by risking my own fleet. You know how it is."" $HeOrShe gives you a look that implies you're expected to agree.
+
+""$bsg_cyl_hunt_execName's last known location was the $bsg_cyl_hunt_systemName, $bsg_cyl_hunt_dist light-years away from here. You should start your search there. I haven't been provided intel on the target's composition, so you're going in blind but assume that they're well armed. Accordingly, I've arranged a payment of $bsg_cyl_hunt_reward credits.""
+
+$HeOrShe places the Tri-Pad face-down on the table, and gives you $hisOrHer full attention for the first time. ""What about it, then? If you can get this done, we could think of sparing your life when judgement day arrives.""","contact_acceptBar:Accept
+contact_declineBarNoContinue:Decline",
+,,,,,,
+bsg_cyl_huntFoundClueShip,ShowSalvageEntityDetails,"$bsg_cyl_hunt_clue score:100
+$customType == wreck
+Call $bsg_cyl_hunt_ref updateData","$global.bsg_cyl_hunt_foundclue = true
+Call $global.bsg_cyl_hunt_ref updateStage
+Call $global.bsg_cyl_hunt_ref unsetClues","Though obviously stripped for supplies and materials, a scant few signals can still be detected from the derelict ship's dying systems. It could not have been abandoned too long ago.
+
+A salvage crew is dispatched, and manage to extract partial fleet logs from a functioning server that record inter-fleet communications discussing a stop in the $bsg_cyl_hunt_system2Name. $bsg_cyl_hunt_execName's fleet should be there.",,
+bsg_cyl_huntFoundClueCache,ShowSalvageEntityDetails,"$bsg_cyl_hunt_clue score:100
+$customType == supply_cache
+Call $bsg_cyl_hunt_ref updateData","$global.bsg_cyl_hunt_foundclue = true
+Call $global.bsg_cyl_hunt_ref updateStage
+Call $global.bsg_cyl_hunt_ref unsetClues","Barely weathered by the usual radiation and impacts of microscopic particles that pose a hazard to exposed cargo pods, it's obvious this supply cache has not been left here for long.
+
+Quick scans manage to pick up a fading signal from one in particular, and once broken open, a Tri-Pad found inside soon yields a fleetwide memo received by $bsg_cyl_hunt_execName's captains, ordering a stop in the $bsg_cyl_hunt_system2Name.",,
+,,,,,,
+bsg_cyl_hunt_fleetOpen,OpenCommLink,$entity.bsg_cyl_hunt_execfleet score:100,$entity.ignorePlayerCommRequests = true,"$personName frowns. ""These damn Cylons didn't even send a fraking Basestar of their own.""
+
+$HeOrShe sighs in disbelief. ""It's not even a fraking Cylon, they started recruiting our own... You poor bastard won't see the next day. Battlestations set condition one throughout the fleet. Prepare for battle, high treason like this won't go unpunished.""",cutCommLink:Cut the comm link,
+,,,,,,
+bsg_cyl_hun_debriefing,$global.bsg_cyl_hunt_completed == true,,"AddTextSmall ""Leoben is hailing your fleet"" highlight","$bsg_cyl_hunt_personName looks quiet happy. ""Well well well look what some fragile meatbag is capable off! Congratulations! As a little welcome gift I've given you an older Basestar model to get your Cylon fleet started. Oh what? Yeah you can totally trust it, no bugging devices or trackers whatsoever haha. That'd be weird. Anyways, I'll reach out to you if we got more work to do.""",cutCommLink:Cut the comm link,
+#END CYLON HUNT,,,,,,
+,,,,,,
+# CYLON REMNANT ENCOUNTER,,,,,,
+bsg_cyl_remnantBlurb,bsg_cyl_remnant_blurbBar,,,$bsg_cyl_remnant_personName sees you and nods at you in anticipation with a big smile on $bsg_cyl_remnant_heOrShe face.,,
+bsg_cyl_remnantOptionBar,bsg_cyl_remnant_optionBar,"$global.bsg_cyl_hunt_completed == true
+$global.bsg_cyl_remnant_completed == false",,,bsg_cyl_remnant_startBar:Check out what the Cylon's got to tell you,
+bsg_cyl_remnantOfferTextBar,DialogOptionSelected,$option == bsg_cyl_remnant_startBar,$missionId = bsg_cyl_remnant,"""So you've made a name for yourself and proven that you hate these meatbags almost as much as we do. Excellent. How does it feel to betray your own race? Eh- nevermind it doesn't matter, you seem to get the job done and we don't have to revive if things go wrong so... win-win?.",bsg_cyl_remnant_startBar2:Continue,
+bsg_cyl_remnantOfferTextBar2,DialogOptionSelected,$option == bsg_cyl_remnant_startBar2,SetTextHighlights  $bsg_cyl_remnant_systemName $bsg_cyl_remnant_dist $bsg_cyl_remnant_reward ,"Well we've noticed that there is another robotic like race in this sector... We don't really know what they're called but there is a System called $bsg_cyl_remnant_systemName, approx $bsg_cyl_remnant_dist ly away from our current position, populated by those autonomous AIs nearby, we want you to investigate them. We successfully shot down one of their ships but when we tried to gather data their reinforcements arrived and we had to tactically retreat. We want you to go back to that system, investigate the wreck and avenge our forces. Besides the honour of being our humble meaty servant you'll also be awarded a total of $bsg_cyl_remnant_reward Credits as compensation and token of our appreciation.","contact_acceptBar:Accept
+contact_declineBarNoContinue:Decline",
+bsg_cyl_remnantFoundWreck,ShowSalvageEntityDetails,"$bsg_cyl_remnant_clue score:100
+$customType == wreck
+Call $bsg_cyl_remnant_ref updateData","$global.bsg_cyl_remnant_foundclue = true
+Call $global.bsg_cyl_remnant_ref updateStage
+Call $global.bsg_cyl_remnant_ref unsetClues",,,
+bsg_cyl_remnant_fleetOpen,OpenCommLink,$entity.bsg_cyl_remnant_remnantfleet score:100,$entity.ignorePlayerCommRequests = true,"$personName weird ## noises. ######## detected, prepare ### ships, engage the #####. Total annihilation ######### activated. ## [REDACTED] will win",cutCommLink:Cut the comm link,
+#END CYLON REMNANT ENCOUNTER,,,,,,
+,,,,,,
